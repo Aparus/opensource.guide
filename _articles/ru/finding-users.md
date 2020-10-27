@@ -1,15 +1,15 @@
 ---
-lang: en
+lang: ru
 title: Finding Users for Your Project
 description: Help your open source project grow by getting it in the hands of happy users.
 class: finding
 toc:
-  spreading-the-word: "Spreading the word"
-  figure-out-your-message: "Figure out your message"
-  help-people-find-and-follow-your-project: "Help people find and follow your project"
-  go-where-your-projects-audience-is-online: "Go where your project’s audience is (online)"
-  go-where-your-projects-audience-is-offline: "Go where your project’s audience is (offline)"
-  build-a-reputation: "Build a reputation"
+  spreading-the-word: 'Spreading the word'
+  figure-out-your-message: 'Figure out your message'
+  help-people-find-and-follow-your-project: 'Help people find and follow your project'
+  go-where-your-projects-audience-is-online: 'Go where your project’s audience is (online)'
+  go-where-your-projects-audience-is-offline: 'Go where your project’s audience is (offline)'
+  build-a-reputation: 'Build a reputation'
 order: 3
 image: /assets/images/cards/finding.png
 related:
@@ -48,7 +48,7 @@ Help people find and remember your project by pointing them to a single namespac
 
 **Have a clear handle to promote your work.** A Twitter handle, GitHub URL, or IRC channel is an easy way to point people to your project. These outlets also give your project's growing community a place to convene.
 
-If you don't wish to set up outlets for your project yet, promote your own Twitter or GitHub handle in everything you do. Promoting your Twitter or GitHub handle will let people know how to contact you or follow your work. If you speak at a meetup or event, make sure that your contact information is included in your bio or slides. 
+If you don't wish to set up outlets for your project yet, promote your own Twitter or GitHub handle in everything you do. Promoting your Twitter or GitHub handle will let people know how to contact you or follow your work. If you speak at a meetup or event, make sure that your contact information is included in your bio or slides.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/nathanmarz?s=180" class="pquote-avatar" alt="avatar">
@@ -84,9 +84,9 @@ Take advantage of existing online communities and platforms to reach your audien
 
 See if you can find ways to share your project in relevant ways:
 
-* **Get to know relevant open source projects and communities.** Sometimes, you don't have to directly promote your project. If your project is perfect for data scientists who use Python, get to know the Python data science community. As people get to know you, natural opportunities will arise to talk about and share your work.
-* **Find people experiencing the problem that your project solves.** Search through related forums for people who fall into your project's target audience. Answer their question and find a tactful way, when appropriate, to suggest your project as a solution.
-* **Ask for feedback.** Introduce yourself and your work to an audience that would find it relevant and interesting. Be specific about who you think would benefit from your project. Try to finish the sentence: _"I think my project would really help X, who are trying to do Y_". Listen and respond to others' feedback, rather than simply promoting your work.
+- **Get to know relevant open source projects and communities.** Sometimes, you don't have to directly promote your project. If your project is perfect for data scientists who use Python, get to know the Python data science community. As people get to know you, natural opportunities will arise to talk about and share your work.
+- **Find people experiencing the problem that your project solves.** Search through related forums for people who fall into your project's target audience. Answer their question and find a tactful way, when appropriate, to suggest your project as a solution.
+- **Ask for feedback.** Introduce yourself and your work to an audience that would find it relevant and interesting. Be specific about who you think would benefit from your project. Try to finish the sentence: _"I think my project would really help X, who are trying to do Y_". Listen and respond to others' feedback, rather than simply promoting your work.
 
 Generally speaking, focus on helping others before asking for things in return. Because anyone can easily promote a project online, there will be a lot of noise. To stand out from the crowd, give people context for who you are and not just what you want.
 

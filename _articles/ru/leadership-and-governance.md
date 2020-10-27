@@ -1,17 +1,17 @@
 ---
-lang: en
+lang: ru
 title: Leadership and Governance
 description: Growing open source projects can benefit from formal rules for making decisions.
 class: leadership
 toc:
-  understanding-governance-for-your-growing-project: "Understanding governance for your growing project"
-  what-are-examples-of-formal-roles-used-in-open-source-projects: "What are examples of formal roles used in open source projects?"
-  how-do-i-formalize-these-leadership-roles: "How do I formalize these leadership roles?"
-  when-should-i-give-someone-commit-access: "When should I give someone commit access?"
-  what-are-some-of-the-common-governance-structures-for-open-source-projects: "What are some of the common governance structures for open source projects?"
-  do-i-need-governance-docs-when-i-launch-my-project: "Do I need governance docs when I launch my project?"
-  what-happens-if-corporate-employees-start-submitting-contributions: "What happens if corporate employees start submitting contributions?"
-  do-i-need-a-legal-entity-to-support-my-project: "Do I need a legal entity to support my project?"
+  understanding-governance-for-your-growing-project: 'Understanding governance for your growing project'
+  what-are-examples-of-formal-roles-used-in-open-source-projects: 'What are examples of formal roles used in open source projects?'
+  how-do-i-formalize-these-leadership-roles: 'How do I formalize these leadership roles?'
+  when-should-i-give-someone-commit-access: 'When should I give someone commit access?'
+  what-are-some-of-the-common-governance-structures-for-open-source-projects: 'What are some of the common governance structures for open source projects?'
+  do-i-need-governance-docs-when-i-launch-my-project: 'Do I need governance docs when I launch my project?'
+  what-happens-if-corporate-employees-start-submitting-contributions: 'What happens if corporate employees start submitting contributions?'
+  do-i-need-a-legal-entity-to-support-my-project: 'Do I need a legal entity to support my project?'
 order: 6
 image: /assets/images/cards/leadership.png
 related:
@@ -29,9 +29,9 @@ Many projects follow a similar structure for contributor roles and recognition.
 
 What these roles actually mean, though, is entirely up to you. Here are a few types of roles you may recognize:
 
-* **Maintainer**
-* **Contributor**
-* **Committer**
+- **Maintainer**
+- **Contributor**
+- **Committer**
 
 **For some projects, "maintainers"** are the only people in a project with commit access. In other projects, they're simply the people who are listed in the README as maintainers.
 
@@ -72,11 +72,11 @@ If your project has a very active contributor community, you might form a "core 
 <aside markdown="1" class="pquote">
   \[We\] supplement the core team with several "subteams". Each subteam is focused on a specific area, e.g., language design or libraries. (...) To ensure global coordination and a strong, coherent vision for the project as a whole, each subteam is led by a member of the core team.
   <p markdown="1" class="pquote-credit">
-— ["Rust Governance RFC"](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
+— ["Rust Governance RFC"](https://github.com/rust-lang/rfcs/blob/HEAD/text/1068-rust-governance.md)
   </p>
 </aside>
 
-Leadership teams may want to create a designated channel (like on IRC) or meet regularly to discuss the project (like on Gitter or Google Hangout). You can even make those meetings public so other people can listen. [Cucumber-ruby](https://github.com/cucumber/cucumber-ruby), for example, [hosts office hours every week](https://github.com/cucumber/cucumber-ruby/blob/master/CONTRIBUTING.md#talking-with-other-devs).
+Leadership teams may want to create a designated channel (like on IRC) or meet regularly to discuss the project (like on Gitter or Google Hangout). You can even make those meetings public so other people can listen. [Cucumber-ruby](https://github.com/cucumber/cucumber-ruby), for example, [hosts office hours every week](https://github.com/cucumber/cucumber-ruby/blob/HEAD/CONTRIBUTING.md#talking-with-other-devs).
 
 Once you've established leadership roles, don't forget to document how people can attain them! Establish a clear process for how someone can become a maintainer or join a subcommittee in your project, and write it into your GOVERNANCE.md.
 
@@ -104,17 +104,17 @@ If your project is on GitHub, you can use [protected branches](https://help.gith
 
 There are three common governance structures associated with open source projects.
 
-* **BDFL:** BDFL stands for "Benevolent Dictator for Life". Under this structure, one person (usually the initial author of the project) has final say on all major project decisions. [Python](https://github.com/python) is a classic example. Smaller projects are probably BDFL by default, because there are only one or two maintainers. A project that originated at a company might also fall into the BDFL category.
+- **BDFL:** BDFL stands for "Benevolent Dictator for Life". Under this structure, one person (usually the initial author of the project) has final say on all major project decisions. [Python](https://github.com/python) is a classic example. Smaller projects are probably BDFL by default, because there are only one or two maintainers. A project that originated at a company might also fall into the BDFL category.
 
-* **Meritocracy:** **(Note: the term "meritocracy" carries negative connotations for some communities and has a [complex social and political history](http://geekfeminism.wikia.com/wiki/Meritocracy).)** Under a meritocracy, active project contributors (those who demonstrate "merit") are given a formal decision making role. Decisions are usually made based on pure voting consensus. The meritocracy concept was pioneered by the [Apache Foundation](https://www.apache.org/); [all Apache projects](https://www.apache.org/index.html#projects-list) are meritocracies. Contributions can only be made by individuals representing themselves, not by a company.
+- **Meritocracy:** **(Note: the term "meritocracy" carries negative connotations for some communities and has a [complex social and political history](http://geekfeminism.wikia.com/wiki/Meritocracy).)** Under a meritocracy, active project contributors (those who demonstrate "merit") are given a formal decision making role. Decisions are usually made based on pure voting consensus. The meritocracy concept was pioneered by the [Apache Foundation](https://www.apache.org/); [all Apache projects](https://www.apache.org/index.html#projects-list) are meritocracies. Contributions can only be made by individuals representing themselves, not by a company.
 
-* **Liberal contribution:** Under a liberal contribution model, the people who do the most work are recognized as most influential, but this is based on current work and not historic contributions. Major project decisions are made based on a consensus seeking process (discuss major grievances) rather than pure vote, and strive to include as many community perspectives as possible. Popular examples of projects that use a liberal contribution model include [Node.js](https://foundation.nodejs.org/) and [Rust](https://www.rust-lang.org/).
+- **Liberal contribution:** Under a liberal contribution model, the people who do the most work are recognized as most influential, but this is based on current work and not historic contributions. Major project decisions are made based on a consensus seeking process (discuss major grievances) rather than pure vote, and strive to include as many community perspectives as possible. Popular examples of projects that use a liberal contribution model include [Node.js](https://foundation.nodejs.org/) and [Rust](https://www.rust-lang.org/).
 
 Which one should you use? It's up to you! Every model has advantages and trade-offs. And although they may seem quite different at first, all three models have more in common than they seem. If you're interested in adopting one of these models, check out these templates:
 
-* [BDFL model template](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel)
-* [Meritocracy model template](http://oss-watch.ac.uk/resources/meritocraticgovernancemodel)
-* [Node.js's liberal contribution policy](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
+- [BDFL model template](http://oss-watch.ac.uk/resources/benevolentdictatorgovernancemodel)
+- [Meritocracy model template](http://oss-watch.ac.uk/resources/meritocraticgovernancemodel)
+- [Node.js's liberal contribution policy](https://medium.com/the-node-js-collection/healthy-open-source-967fa8be7951)
 
 ## Do I need governance docs when I launch my project?
 
