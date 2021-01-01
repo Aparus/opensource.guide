@@ -249,7 +249,7 @@ Open source, как и любая творческая работа, будь т
   <img src="https://avatars.githubusercontent.com/janl?s=180" class="pquote-avatar" alt="avatar">
 Я старался участвовать в каждой теме в списке рассылки и показывать образцовое поведение, быть доброжелательным к людям, серьезно относиться к их проблемам и быть полезным в общем. Через некоторое время люди стали не только задавать вопросы, но и помогать с ответами, и, к моему полному восторгу, они подражали моему стилю.
   <p markdown="1" class="pquote-credit">
-— @janl on [CouchDB](https://github.com/apache/couchdb), ["Sustainable Open Source"](https://writing.jan.io/2015/11/20/sustainable-open-source.html)
+— @janl on [CouchDB](https://github.com/apache/couchdb), ["Sustainable Open Source"](https://web.archive.org/web/20200723213552/https://writing.jan.io/2015/11/20/sustainable-open-source.html)
   </p>
 </aside>
 Добрый и вежливый язык создаст приятную атмосферу для новых участников. Следите так же за простотой изложения, так как для многих читателей английский может быть не родным.
