@@ -1,12 +1,12 @@
 ---
 lang: ru
-title: Building Welcoming Communities
-description: Building a community that encourages people to use, contribute to, and evangelize your project.
+title: Создание дружного сообщества 
+description: Создание сообщества, которое побуждает людей использовать ваш проект, вносить свой вклад и пропагандировать его.
 class: building
 toc:
-  setting-your-project-up-for-success: 'Setting your project up for success'
-  growing-your-community: 'Growing your community'
-  resolving-conflicts: 'Resolving conflicts'
+  setting-your-project-up-for-success: 'Настройка вашего проекта на успех'
+  growing-your-community: 'Развитие вашего сообщества'
+  resolving-conflicts: 'Разрешение конфликтов'
 order: 4
 image: /assets/images/cards/building.png
 related:
@@ -14,25 +14,25 @@ related:
   - coc
 ---
 
-## Setting your project up for success
+## Настройка вашего проекта на успех
 
-You've launched your project, you're spreading the word, and people are checking it out. Awesome! Now, how do you get them to stick around?
+Вы запустили свой проект, распространяете информацию, и люди пробуют его. Потрясающе! Как заставить их остаться?
 
-A welcoming community is an investment into your project's future and reputation. If your project is just starting to see its first contributions, start by giving early contributors a positive experience, and make it easy for them to keep coming back.
+Доброжелательное сообщество - это инвестиция в будущее и репутацию вашего проекта. Если ваш проект только начинает получать вклад посторонних разработчиков, начните с того, чтобы дать первым участникам положительный опыт, чтобы им хотелось возвращаться.
 
-### Make people feel welcome
+### Сделайте так, чтобы люди чувствовали себя желанными гостями
 
-One way to think about your project's community is through what @MikeMcQuaid calls the [contributor funnel](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/):
+Один из способов подумать о сообществе вашего проекта - это то, что @MikeMcQuaid называет [воронкой участника](https://mikemcquaid.com/2018/08/14/the-open-source-contributor-funnel-why-people-dont-contribute-to-your-open-source-project/):
 
-![Contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
+![воронка участника](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
 
-As you build your community, consider how someone at the top of the funnel (a potential user) might theoretically make their way to the bottom (an active maintainer). Your goal is to reduce friction at each stage of the contributor experience. When people have easy wins, they will feel incentivized to do more.
+Создавая свое сообщество, подумайте, как кто-то наверху воронки (потенциальный пользователь) теоретически может добраться до конца (активный сопровождающий). Ваша цель - уменьшить трение на каждом этапе взаимодействия с участником. Когда у людей легкие победы, они будут чувствовать стимул делать больше.
 
 Start with your documentation:
 
-- **Make it easy for someone to use your project.** [A friendly README](../starting-a-project/#составление-readme) and clear code examples will make it easier for anyone who lands on your project to get started.
-- **Clearly explain how to contribute**, using [your CONTRIBUTING file](../starting-a-project/#написание-руководства-для-участников) and keeping your issues up-to-date.
-- **Good first issues**: To help new contributors get started, consider explicitly [labeling issues that are simple enough for beginners to tackle](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). GitHub will then surface these issues in various places on the platform, increasing useful contributions, and reducing friction from users tackling issues that are too hard for their level.
+- **Облегчите использование вашего проекта для любого желающего.** [Дружественное README](../starting-a-project/#составление-readme) а понятные примеры кода помогут любому, кто прикоснется к вашему проекту, начать работу.
+- **Объясните, как участвовать**, используя [руководство для участников](../starting-a-project/#написание-руководства-для-участников) и оперативно отвечая на вопросы (issues).
+- **Хорошие первые вопросы (issues)**: чтобы помочь новым участникам начать работу, явно рассмотрите [ярлыки вопросов, которые достаточно просты для начинающих](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). Затем Гитхаб выведет эти вопросы в различных местах платформы, увеличивая полезный вклад и уменьшая трение пользователей, решающих проблемы, которые слишком сложны для их уровня.
 
 [GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
 
