@@ -1,15 +1,15 @@
 ---
 lang: ru
-title: How to Contribute to Open Source
-description: Want to contribute to open source? A guide to making open source contributions, for first-timers and for veterans.
+title: Как участвовать в открытых проектах
+description: Хотите участвовать в открытых проектах? Руководство по участию для новичков и ветеранов.
 class: contribute
 toc:
-  why-contribute-to-open-source: 'Why contribute to open source?'
-  what-it-means-to-contribute: 'What it means to contribute'
-  orienting-yourself-to-a-new-project: 'Orienting yourself to a new project'
-  finding-a-project-to-contribute-to: 'Finding a project to contribute to'
-  how-to-submit-a-contribution: 'How to submit a contribution'
-  what-happens-after-you-submit-a-contribution: 'What happens after you submit a contribution'
+  why-contribute-to-open-source: 'Зачем участвовать в открытых проектах'
+  what-it-means-to-contribute: 'Что значит внести свой вклад (to contribute)'
+  orienting-yourself-to-a-new-project: 'Ориентация на новый проект'
+  finding-a-project-to-contribute-to: 'Поиск проекта, в который можно внести свой вклад'
+  how-to-submit-a-contribution: 'Как отправить вклад'
+  what-happens-after-you-submit-a-contribution: 'Что происходит после того, как вы отправите свой вклад'
 order: 1
 image: /assets/images/cards/contribute.png
 related:
@@ -17,519 +17,518 @@ related:
   - building
 ---
 
-## Why contribute to open source?
+## Зачем участвовать в открытых проектах?
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/errietta?s=180" class="pquote-avatar" alt="avatar">
-  Working on \[freenode\] helped me earn many of the skills I later used for my studies in university and my actual job. I think working on open source projects helps me as much as it helps the project!
+  Работа над \[freenode\] помогла мне приобрести многие навыки, которые я позже использовал в учебе в университете и в текущей работе. Я думаю, что работа над проектами с открытым исходным кодом помогает мне не меньше, чем самому проекту!
   <p markdown="1" class="pquote-credit">
-— @errietta, ["Why I love contributing to open source software"](https://www.errietta.me/blog/open-source/)
+— @errietta, ["Почему я люблю участвовать в работе над открытым софтом"](https://www.errietta.me/blog/open-source/)
   </p>
 </aside>
 
-Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine.
+Участие в разработке программного обеспечения с открытым исходным кодом может быть полезным способом изучать, обучать и приобретать опыт практически в любом навыке, который вы можете себе представить.
 
-Why do people contribute to open source? Plenty of reasons!
+Почему люди вносят свой вклад в открытый исходный код? Множество причин!
 
-### Improve software you rely on
+### Улучшайте программное обеспечение, на которое вы полагаетесь
 
-Lots of open source contributors start by being users of software they contribute to. When you find a bug in an open source software you use, you may want to look at the source to see if you can patch it yourself. If that's the case, then contributing the patch back is the best way to ensure that your friends (and yourself when you update to the next release) will be able to benefit from it.
+Многие участники открытого кода начинают с того, что являются пользователями программного обеспечения, в которое они вносят свой вклад. Когда вы обнаружите ошибку в программном обеспечении с открытым исходным кодом, которое вы используете, вы можете посмотреть в исходный код, чтобы узнать, можете ли вы исправить его самостоятельно. Если это так, то возвращение патча - лучший способ убедиться, что ваши друзья (и вы сами, когда вы обновитесь до следующего выпуска) смогут извлечь из него пользу.
 
-### Improve existing skills
+### Улучшить существующие навыки
 
-Whether it's coding, user interface design, graphic design, writing, or organizing, if you're looking for practice, there's a task for you on an open source project.
+Будь то программирование, дизайн пользовательского интерфейса, графический дизайн, написание текста или организационная работа, если вы ищете практику, для вас найдётся задача в проекте с открытым исходным кодом.
 
-### Meet people who are interested in similar things
+### Знакомьтесь с людьми, которым интересны похожие вещи
 
-Open source projects with warm, welcoming communities keep people coming back for years. Many people form lifelong friendships through their participation in open source, whether it's running into each other at conferences or late night online chats about burritos.
+Проекты с открытым исходным кодом с теплыми, гостеприимными сообществами заставляют людей возвращаться долгие годы. Многие люди завязывают дружбу на всю жизнь благодаря участию в открытых проектах, будь то встреча друг с другом на конференциях или поздних ночных онлайн-чатах о буррито.
 
-### Find mentors and teach others
+### Найдите наставников и научите других
 
-Working with others on a shared project means you'll have to explain how you do things, as well as ask other people for help. The acts of learning and teaching can be a fulfilling activity for everyone involved.
+Работа с другими над общим проектом означает, что вам придется объяснять, как вы это делаете, а также просить помощи у других. Акты обучения и преподавания могут быть полезными для всех участников.
 
-### Build public artifacts that help you grow a reputation (and a career)
+### Создавайте общедоступные артефакты, которые помогут вам повысить репутацию (и карьеру)
 
-By definition, all of your open source work is public, which means you get free examples to take anywhere as a demonstration of what you can do.
+По определению, вся ваша работа с открытым исходным кодом является общедоступной, что означает, что вы получаете бесплатные примеры, которые можно использовать где угодно в качестве демонстрации того, что вы можете делать.
 
-### Learn people skills
+### Изучите навыки работы с людьми
 
-Open source offers opportunities to practice leadership and management skills, such as resolving conflicts, organizing teams of people, and prioritizing work.
+Открытый исходный код предлагает возможности практиковать лидерские и управленческие навыки, такие как разрешение конфликтов, организация групп людей и определение приоритетов в работе.
 
-### It's empowering to be able to make changes, even small ones
+### Это дает возможность вносить изменения, даже небольшие.
 
-You don't have to become a lifelong contributor to enjoy participating in open source. Have you ever seen a typo on a website, and wished someone would fix it? On an open source project, you can do just that. Open source helps people feel agency over their lives and how they experience the world, and that in itself is gratifying.
+Необязательно становиться участником на протяжении всей жизни, чтобы получать удовольствие от участия в проектах с открытым исходным кодом. Вы когда-нибудь видели опечатку на сайте и хотели бы, чтобы кто-нибудь ее исправил? В проекте с открытым исходным кодом вы можете это сделать. Открытый исходный код помогает людям чувствовать свободу в своей жизни и в том, как они воспринимают мир, и это само по себе отрадно.
 
-## What it means to contribute
+## Что значит внести свой вклад (to contribute)
 
-If you're a new open source contributor, the process can be intimidating. How do you find the right project? What if you don't know how to code? What if something goes wrong?
+Если вы новичок в open source, процесс может быть пугающим. Как найти подходящий проект? Что делать, если вы не умеете программировать? Что если что-то пойдет не так?
 
-Not to worry! There are all sorts of ways to get involved with an open source project, and a few tips will help you get the most out of your experience.
+Не беспокойтесь! Есть много способов принять участие в проекте с открытым исходным кодом, и несколько советов помогут вам извлечь максимальную пользу из вашего опыта.
 
-### You don't have to contribute code
+### Вам не нужно вносить код
 
-A common misconception about contributing to open source is that you need to contribute code. In fact, it's often the other parts of a project that are [most neglected or overlooked](https://github.com/blog/2195-the-shape-of-open-source). You'll do the project a _huge_ favor by offering to pitch in with these types of contributions!
+Распространенное заблуждение об участии в разработке открытого исходного кода состоит в том, что вам нужно писать код. Зачастую есть другие части проекта, [наиболее игнорируемые или упускаемые из виду](https://github.com/blog/2195-the-shape-of-open-source). Вы окажете проекту огромную услугу, предложив поработать над этим!
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/orta?s=180" class="pquote-avatar" alt="avatar">
-  I’ve been renowned for my work on CocoaPods, but most people don’t know that I actually don’t do any real work on the CocoaPods tool itself. My time on the project is mostly spent doing things like documentation and working on branding.
+  Я известен своей работой над CocoaPods, но большинство людей не знают, что я на самом деле не работаю над самим инструментом CocoaPods. В основном я занимаюсь документацией и брендингом.
   <p markdown="1" class="pquote-credit">
-— @orta, ["Moving to OSS by default"](https://academy.realm.io/posts/orta-therox-moving-to-oss-by-default/)
+— @orta, ["Переход на открытый исходный код по умолчанию"](https://academy.realm.io/posts/orta-therox-moving-to-oss-by-default/)
   </p>
 </aside>
 
-Even if you like to write code, other types of contributions are a great way to get involved with a project and meet other community members. Building those relationships will give you opportunities to work on other parts of the project.
+Даже если вам нравится писать код, другие виды участия - отличный способ поучаствовать в проекте и познакомиться с другими членами сообщества. Построение этих отношений даст вам возможность работать над другими частями проекта.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/brettcannon?s=180" class="pquote-avatar" alt="avatar">
-  I first reached out to the Python development team (aka python-dev) when I emailed the mailing list on June 17, 2002 about accepting my patch. I quickly caught the open source bug, and decided to start curating email digests for the group. They gave me a great excuse to ask for clarifications about a topic, but more critically I was able to notice when someone pointed out something that needed fixing.
-  <p markdown="1" class="pquote-credit">
-— @brettcannon, ["Maintainer Stories"](https://github.com/open-source/stories/brettcannon)
+Я впервые обратился к команде разработчиков Python (также известной как python-dev), когда 17 июня 2002 года отправил по электронной почте список рассылки с просьбой принять мой патч. Я быстро заметил ошибку в открытом исходном кода и решил начать готовить дайджесты электронной почты для группы. Они дали мне отличный повод попросить разъяснений по теме, но, что более важно, я мог заметить, когда кто-то указывал на что-то, что требовало исправления.  <p markdown="1" class="pquote-credit">
+— @brettcannon, ["Истории сопровождающего"](https://github.com/open-source/stories/brettcannon)
   </p>
 </aside>
 
-### Do you like planning events?
+### Вы любите планировать мероприятия?
 
-- Organize workshops or meetups about the project, [like @fzamperin did for NodeSchool](https://github.com/nodeschool/organizers/issues/406)
-- Organize the project's conference (if they have one)
-- Help community members find the right conferences and submit proposals for speaking
+- Организуйте семинары или встречи по проекту, [как @fzamperin сделал для NodeSchool](https://github.com/nodeschool/organizers/issues/406)
+- Организуйте конференцию проекта (если она есть)
+- Помогите участникам сообщества найти подходящие конференции и подать предложения для выступления
 
-### Do you like to design?
+### Любите проектировать?
 
-- Restructure layouts to improve the project's usability
-- Conduct user research to reorganize and refine the project's navigation or menus, [like Drupal suggests](https://www.drupal.org/community-initiatives/drupal-core/usability)
-- Put together a style guide to help the project have a consistent visual design
-- Create art for t-shirts or a new logo, [like hapi.js's contributors did](https://github.com/hapijs/contrib/issues/68)
+- Реструктурируйте макетов для повышения удобства использования проекта.
+- Проведите исследование пользователей, чтобы реорганизовать и уточнить навигацию или меню проекта [как предлагает Drupal](https://www.drupal.org/community-initiatives/drupal-core/usability)
+- Составьте руководство по стилю, чтобы помочь проекту иметь единый визуальный дизайн.
+- Создайте изображения для футболок или новый логотип [как это сделали участники hapi.js](https://github.com/hapijs/contrib/issues/68)
 
-### Do you like to write?
+### Любите писать?
 
-- Write and improve the project's documentation
-- Curate a folder of examples showing how the project is used
-- Start a newsletter for the project, or curate highlights from the mailing list
-- Write tutorials for the project, [like PyPA's contributors did](https://github.com/pypa/python-packaging-user-guide/issues/194)
-- Write a translation for the project's documentation
+- Напишите и улучшите документацию по проекту
+- Создайте папку с примерами, показывающими, как используется проект
+- Начните рассылку новостей по проекту или отредактируйте основные моменты из списка рассылки
+- Напишите учебники для проекта [как это сделали участники PyPA](https://github.com/pypa/python-packaging-user-guide/issues/194)
+- Напишите перевод документации по проекту
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/kittens?s=180" class="pquote-avatar" alt="avatar">
-  Seriously, \[documentation\] is mega-important. The documentation so far has been great and has been a killer feature of Babel. There are sections that could certainly use some work and even the addition of a paragraph here or there is extremely appreciated.
-  <p markdown="1" class="pquote-credit">
-— @kittens, ["Call for contributors"](https://github.com/babel/babel/issues/1347)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/kittens?s=180" class = "pquote-avatar" alt = "avatar">
+  Кроме шуток, \[документация\] мега важна. Документация до сих пор была отличной и была ключевой особенностью Бабеля (Babel). Есть разделы, которые требуют доработку, и даже добавление параграфа здесь или там чрезвычайно приветствуется.
+  <p markdown = "1" class = "pquote-credit">
+- @kittens, ["Призыв участников"](https://github.com/babel/babel/issues/1347)
   </p>
 </aside>
 
-### Do you like organizing?
+### Любите организовывать?
 
-- Link to duplicate issues, and suggest new issue labels, to keep things organized
-- Go through open issues and suggest closing old ones, [like @nzakas did for ESLint](https://github.com/eslint/eslint/issues/6765)
-- Ask clarifying questions on recently opened issues to move the discussion forward
+- Выставляйте ссылки на повторяющиеся вопросы (issues) и предлагайте новые ярлыки для вопросов, чтобы все было организовано
+- Просмотрите открытые вопросы и предложите закрыть старые [например, @nzakas для ESLint](https://github.com/eslint/eslint/issues/6765)
+- Задавайте уточняющие вопросы по недавно открывшимся вопросам, чтобы продвинуть обсуждение вперед
 
-### Do you like to code?
+### Любите кодить?
 
-- Find an open issue to tackle, [like @dianjin did for Leaflet](https://github.com/Leaflet/Leaflet/issues/4528#issuecomment-216520560)
-- Ask if you can help write a new feature
-- Automate project setup
-- Improve tooling and testing
+- Найдите открытую проблему для решения [например, @dianjin сделал для Leaflet](https://github.com/Leaflet/Leaflet/issues/4528#issuecomment-216520560)
+- Спросите, можете ли вы помочь написать новую функцию
+- Автоматизируйте настройку проекта
+- Улучшите инструменты и тестирование
 
-### Do you like helping people?
+### Любите помогать людям?
 
-- Answer questions about the project on e.g., Stack Overflow ([like this Postgres example](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge)) or Reddit
-- Answer questions for people on open issues
-- Help moderate the discussion boards or conversation channels
+- Ответьте на вопросы о проекте, например, на Stack Overflow ([как в этом примере Postgres](https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying -to-ge)) или Reddit
+- Отвечайте на вопросы людей по открытым вопросам
+- Помогите модерировать доски обсуждений или каналы в чатах
 
-### Do you like helping others code?
+### Нравится ли вам помогать другим кодить?
 
-- Review code on other people's submissions
-- Write tutorials for how a project can be used
-- Offer to mentor another contributor, [like @ereichert did for @bronzdoc on Rust](https://github.com/rust-lang/book/issues/123#issuecomment-238049666)
+- Проверяйте код других людей
+- Напишите учебные пособия по использованию проекта
+- Предложите стать наставником другого участника [как @ereichert сделал для @bronzdoc на Rust](https://github.com/rust-lang/book/issues/123#issuecomment-238049666)
 
-### You don't just have to work on software projects!
+### Можно работать не только над программными проектами!
 
-While "open source" often refers to software, you can collaborate on just about anything. There are books, recipes, lists, and classes that get developed as open source projects.
+Хотя «открытый исходник» часто относится к программному обеспечению, вы можете сотрудничать практически над чем угодно. Есть книги, рецепты, списки и классы, которые разрабатываются как проекты с открытым исходным кодом.
 
-For example:
+Например:
 
-- @sindresorhus curates a [list of "awesome" lists](https://github.com/sindresorhus/awesome)
-- @h5bp maintains a [list of potential interview questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) for front-end developer candidates
-- @stuartlynn and @nicole-a-tesla made a [collection of fun facts about puffins](https://github.com/stuartlynn/puffin_facts)
+- @sindresorhus создает [список "классных" списков](https://github.com/sindresorhus/awesome)
+- @h5bp ведет [список потенциальных вопросов на собеседовании](https://github.com/h5bp/Front-end-Developer-Interview-Questions) для кандидатов в разработчики интерфейсов.
+- @stuartlynn и @ nicole-a-tesla сделали [сборник забавных фактов о тупиках](https://github.com/stuartlynn/puffin_facts)
 
-Even if you're a software developer, working on a documentation project can help you get started in open source. It's often less intimidating to work on projects that don't involve code, and the process of collaboration will build your confidence and experience.
+Даже если вы разработчик программного обеспечения, работа над документацией проекта может помочь вам начать работу с открытым проектом. Работать над проектами, не использующими код, зачастую не так страшно, и процесс совместной работы укрепит вашу уверенность и опыт.
 
-## Orienting yourself to a new project
+## Ориентация на новый проект
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/shaunagm?s=180" class="pquote-avatar" alt="avatar">
-  If you go to an issue tracker and things seem confusing, it's not just you. These tools require a lot of implicit knowledge, but people can help you navigate it and you can ask them questions.
-  <p markdown="1" class="pquote-credit">
-— @shaunagm, ["How to Contribute to Open Source"](https://readwrite.com/2014/10/10/open-source-diversity-how-to-contribute/)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/shaunagm?s=180" class = "pquote-avatar" alt = "avatar">
+  Если вы обращаетесь к системе отслеживания вопросов (issue), и вас она сбивает с толку, дело не только в вас. Эти инструменты требуют большого количества неявных знаний, но люди могут помочь вам сориентироваться в них, и вы можете задать им вопросы.
+  <p markdown = "1" class = "pquote-credit">
+- @shaunagm, [«Как внести свой вклад в разработку открытого исходного кода»](https://readwrite.com/2014/10/10/open-source-diversity-how-to-contribute/)
   </p>
 </aside>
 
-For anything more than a typo fix, contributing to open source is like walking up to a group of strangers at a party. If you start talking about llamas, while they were deep in a discussion about goldfish, they'll probably look at you a little strangely.
+Для чего-то большего, чем исправление опечатки, участие в открытом проекте похоже на поход к группе незнакомцев на вечеринке. Если вы начнете говорить о ламах, когда они были увлечены дискуссией о золотых рыбках, они, вероятно, будут смотреть на вас немного странно.
 
-Before jumping in blindly with your own suggestions, start by learning how to read the room. Doing so increases the chances that your ideas will be noticed and heard.
+Прежде чем вслепую приступить к своим собственным предложениям, начните с изучения обстановки в сообществе. Это увеличивает шансы на то, что ваши идеи будут замечены и услышаны.
 
-### Anatomy of an open source project
+### Анатомия проекта с открытым исходным кодом
 
-Every open source community is different.
+Каждое сообщество с открытым исходным кодом отличается.
 
-Spending years on one open source project means you've gotten to know one open source project. Move to a different project, and you might find the vocabulary, norms, and communication styles are completely different.
+Потратить годы на один открытый проект означает, что вы познакомились с одним открытым проектом. Переходите к другому проекту, и вы можете обнаружить, что словарный запас, нормы и стили общения совершенно другие.
 
-That said, many open source projects follow a similar organizational structure. Understanding the different community roles and overall process will help you get quickly oriented to any new project.
+Тем не менее, многие проекты с открытым исходным кодом следуют схожей организационной структуре. Понимание различных ролей сообщества и общего процесса поможет вам быстро сориентироваться в любом новом проекте.
 
-A typical open source project has the following types of people:
+Типичный проект с открытым исходным кодом состоит из следующих типов людей:
 
-- **Author:** The person/s or organization that created the project
-- **Owner:** The person/s who has administrative ownership over the organization or repository (not always the same as the original author)
-- **Maintainers:** Contributors who are responsible for driving the vision and managing the organizational aspects of the project (They may also be authors or owners of the project.)
-- **Contributors:** Everyone who has contributed something back to the project
-- **Community Members:** People who use the project. They might be active in conversations or express their opinion on the project's direction
+- **Автор:** Человек или организация, создавшие проект.
+- **Владелец:** Лицо, которое имеет административное право собственности на организацию или репозиторий (не всегда то же самое, что и первоначальный автор).
+- **Сопровождающие:** Соавторы, которые несут ответственность за формирование видения и управление организационными аспектами проекта (они также могут быть авторами или владельцами проекта).
+- **Соавторы:** Все, кто внес свой вклад в проект.
+- **Участники сообщества:** Люди, которые используют проект. Они могут быть активными в беседах или высказывать свое мнение о направлении проекта.
 
-Bigger projects may also have subcommittees or working groups focused on different tasks, such as tooling, triage, community moderation, and event organizing. Look on a project's website for a "team" page, or in the repository for governance documentation, to find this information.
+В более крупных проектах также могут быть подкомитеты или рабочие группы, занимающиеся различными задачами, такими как инструменты, сортировка, модерация сообщества и организация мероприятий. Поищите на веб-сайте проекта или репозитории "командную" или "организационную" страницу, чтобы найти эту информацию.
 
-A project also has documentation. These files are usually listed in the top level of a repository.
+У проекта также есть документация. Эти файлы обычно перечислены на верхнем уровне репозитория.
 
-- **LICENSE:** By definition, every open source project must have an [open source license](https://choosealicense.com). If the project does not have a license, it is not open source.
-- **README:** The README is the instruction manual that welcomes new community members to the project. It explains why the project is useful and how to get started.
-- **CONTRIBUTING:** Whereas READMEs help people _use_ the project, contributing docs help people _contribute_ to the project. It explains what types of contributions are needed and how the process works. While not every project has a CONTRIBUTING file, its presence signals that this is a welcoming project to contribute to.
-- **CODE_OF_CONDUCT:** The code of conduct sets ground rules for participants' behavior associated and helps to facilitate a friendly, welcoming environment. While not every project has a CODE_OF_CONDUCT file, its presence signals that this is a welcoming project to contribute to.
-- **Other documentation:** There might be additional documentation, such as tutorials, walkthroughs, or governance policies, especially on bigger projects.
+- **ЛИЦЕНЗИЯ:** По определению, каждый проект с открытым исходным кодом должен иметь [лицензию с открытым исходным кодом](https://choosealicense.com). Если у проекта нет лицензии, он не является открытым исходным кодом.
+- **README:** README - это инструкция, которая приветствует новых членов сообщества в проекте. В нем объясняется, почему проект полезен и с чего начать.
+- **УЧАСТИЕ (CONTRIBUTING):** В то время как README помогают людям _использовать_ проект, документация участников помогает людям _вносить_ свой вклад в проект. В нем объясняется, какие виды помощи необходимы и как работает этот процесс. Хотя не у каждого проекта есть файл CONTRIBUTING, его наличие свидетельствует о дружелюбном отношении к участникам.
+- **КОДЕКС ПОВЕДЕНИЯ (CODE_OF_CONDUCT):** Кодекс поведения устанавливает основные правила поведения участников и помогает создать дружелюбную, гостеприимную атмосферу. Хотя не в каждом проекте есть файл CODE_OF_CONDUCT, его наличие свидетельствует о том, что это хороший проект, в который можно внести свой вклад.
+- **Другая документация:** Может быть дополнительная документация, такая как учебные пособия, пошаговые руководства или политики управления, особенно для более крупных проектов.
 
-Finally, open source projects use the following tools to organize discussion. Reading through the archives will give you a good picture of how the community thinks and works.
+Наконец, в проектах с открытым исходным кодом для организации обсуждения используются следующие инструменты. Чтение архивов даст вам хорошее представление о том, как сообщество думает и работает.
 
-- **Issue tracker:** Where people discuss issues related to the project.
-- **Pull requests:** Where people discuss and review changes that are in progress.
-- **Discussion forums or mailing lists:** Some projects may use these channels for conversational topics (for example, _"How do I..."_ or _"What do you think about..."_ instead of bug reports or feature requests). Others use the issue tracker for all conversations.
-- **Synchronous chat channel:** Some projects use chat channels (such as Slack or IRC) for casual conversation, collaboration, and quick exchanges.
+- **Отслеживание проблем (issue tracker):** Где люди обсуждают вопросы, связанные с проектом.
+- **Запросы на исправление (pull request):** Где люди обсуждают и просматривают запросы на изменение кода.
+- **Дискуссионные форумы или списки рассылки:** Некоторые проекты могут использовать эти каналы для разговорных тем (например, _"Как мне ..."_ или _"Что вы думаете о ..."_ вместо отчётов об ошибках и просьбе новых функций). Другие используют issues для всех разговоров.
+- **Синхронный канал чата:** Некоторые проекты используют каналы чата (например, Slack или IRC) для спонтанного общения, совместной работы и быстрого обмена мнениями.
 
-## Finding a project to contribute to
+## Поиск проекта, в который можно внести свой вклад
 
-Now that you've figured out how open source projects work, it's time to find a project to contribute to!
+Теперь, когда вы разобрались, как работают проекты с открытым исходным кодом, пришло время найти проект, в который вы можете внести свой вклад!
 
-If you've never contributed to open source before, take some advice from U.S. President John F. Kennedy, who once said, _"Ask not what your country can do for you - ask what you can do for your country."_
+Если вы никогда раньше не участвовали в разработке открытого исходного кода, прислушайтесь к совету президента США Джона Ф. Кеннеди, который однажды сказал: «Не спрашивайте, что ваша страна может сделать для вас - спросите, что вы можете сделать для своей страны».
 
-Contributing to open source happens at all levels, across projects. You don't need to overthink what exactly your first contribution will be, or how it will look.
+Содействие развитию открытого исходного кода происходит на всех уровнях, в рамках проектов. Вам не нужно задумываться, какой именно будет ваш первый вклад или как он будет выглядеть.
 
-Instead, start by thinking about the projects you already use, or want to use. The projects you'll actively contribute to are the ones you find yourself coming back to.
+Вместо этого начните с размышлений о проектах, которые вы уже используете или хотите использовать. Проекты, в которых вы будете активно участвовать, - это те, к которым вы вернетесь.
 
-Within those projects, whenever you catch yourself thinking that something could be better or different, act on your instinct.
+В рамках этих проектов, когда вы ловите себя на мысли, что что-то может быть лучше или иначе, действуйте в соответствии со своим инстинктом.
 
-Open source isn't an exclusive club; it's made by people just like you. "Open source" is just a fancy term for treating the world's problems as fixable.
+Открытый исходный код - это не эксклюзивный клуб; это делают такие же люди, как вы. «Открытый исходный код» - это всего лишь причудливый термин для обозначения мировых проблем как решаемых.
 
-You might scan a README and find a broken link or a typo. Or you're a new user and you noticed something is broken, or an issue that you think should really be in the documentation. Instead of ignoring it and moving on, or asking someone else to fix it, see whether you can help out by pitching in. That's what open source is all about!
+Вы можете просканировать README и найти неработающую ссылку или опечатку. Или вы новый пользователь, и вы заметили, что что-то сломано, или недостаток в документации. Вместо того, чтобы игнорировать это и двигаться дальше или просить кого-нибудь исправить это, посмотрите, можете ли вы помочь, приняв участие. Вот в чем суть открытого исходного кода!
 
-> [28% of casual contributions](https://www.igor.pro.br/publica/papers/saner2016.pdf) to open source are documentation, such as a typo fix, reformatting, or writing a translation.
+> [28% случайных вкладов](https://www.igor.pro.br/publica/papers/saner2016.pdf) в открытый исходный код представляют собой документацию, такую ​​как исправление опечатки, переформатирование или написание перевода.
 
-If you're looking for existing issues you can fix, every open source project has a `/contribute` page that highlights beginner-friendly issues you can start out with. Navigate to the main page of the repository on GitHub, and add `/contribute` at the end of the URL (for example [`https://github.com/facebook/react/contribute`](https://github.com/facebook/react/contribute)).
+Если вы ищете существующие проблемы, которые можно исправить, в каждом проекте с открытым исходным кодом есть страница `/contribute`, на которой освещаются проблемы, удобные для начинающих, с которых вы можете начать. Перейдите на главную страницу репозитория на GitHub и добавьте в конец URL-адреса «/contribute (например, [https://github.com/facebook/react/contribute`](https://github.com/facebook/react/contribute)).
 
-You can also use one of the following resources to help you discover and contribute to new projects:
+Вы также можете использовать один из следующих ресурсов, чтобы открыть для себя новые проекты и внести свой вклад в них:
 
-- [GitHub Explore](https://github.com/explore/)
-- [Open Source Friday](https://opensourcefriday.com)
-- [First Timers Only](https://www.firsttimersonly.com/)
+- [Обзор GitHub](https://github.com/explore/)
+- [Пятница с открытым исходным кодом](https://opensourcefriday.com)
+- [Только для новичков](https://www.firsttimersonly.com/)
 - [CodeTriage](https://www.codetriage.com/)
-- [24 Pull Requests](https://24pullrequests.com/)
-- [Up For Grabs](https://up-for-grabs.net/)
+- [24 запроса на слияние](https://24pullrequests.com/)
+- [Готово] (https://up-for-grabs.net/)
 - [Contributor-ninja](https://contributor.ninja)
-- [First Contributions](https://firstcontributions.github.io)
-- [SourceSort](https://www.sourcesort.com/)
+- [Первые взносы] (https://firstcontributions.github.io)
+- [SourceSort] (https://www.sourcesort.com/)
 
-### A checklist before you contribute
+### Контрольный список перед тем, как внести свой вклад
 
-When you've found a project you'd like to contribute to, do a quick scan to make sure that the project is suitable for accepting contributions. Otherwise, your hard work may never get a response.
+Когда вы нашли проект, в который хотели бы внести свой вклад, сделайте быстрый обзор, чтобы убедиться, что проект принимает стороннюю помощь. В противном случае ваш упорный труд может никогда не получить отклика.
 
-Here's a handy checklist to evaluate whether a project is good for new contributors.
+Вот удобный контрольный список, чтобы оценить, подходит ли проект для новых участников.
 
-**Meets the definition of open source**
+**Соответствует определению открытого исходного кода**
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox1" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox1" class="overflow-hidden d-block text-normal">
-  Does it have a license? Usually, there is a file called LICENSE in the root of the repository.
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox1" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox1" class = "overflow-hidden d-block text-normal">
+  Есть ли у него лицензия? Обычно в корне репозитория находится файл LICENSE.
   </label>
 </div>
 
-**Project actively accepts contributions**
+**Проект активно принимает взносы**
 
-Look at the commit activity on the master branch. On GitHub, you can see this information on a repository's homepage.
+Посмотрите на изменения (commits) в основной ветке. На GitHub вы можете увидеть эту информацию на домашней странице репозитория.
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox2" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox2" class="overflow-hidden d-block text-normal">
-  When was the latest commit?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox2" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox2" class = "overflow-hidden d-block text-normal">
+  Когда было последнее изменение?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox3" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox3" class="overflow-hidden d-block text-normal">
-  How many contributors does the project have?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox3" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox3" class = "overflow-hidden d-block text-normal">
+  Сколько участников у проекта?
   </label>
 </div>
 
-<div class="clearfix mb-4">
-  <input type="checkbox" id="cbox4" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox4" class="overflow-hidden d-block text-normal">
-  How often do people commit? (On GitHub, you can find this by clicking "Commits" in the top bar.)
+<div class = "clearfix mb-4">
+  <input type = "checkbox" id = "cbox4" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox4" class = "overflow-hidden d-block text-normal">
+  Как часто люди совершают правки? (На GitHub вы можете найти это, щелкнув «Commits» на верхней панели.)
   </label>
 </div>
 
-Next, look at the project's issues.
+Затем посмотрите на проблемы (issues) проекта.
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox5" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox5" class="overflow-hidden d-block text-normal">
-    How many open issues are there?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox5" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox5" class = "overflow-hidden d-block text-normal">
+    Сколько сейчас открытых вопросов?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox6" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox6" class="overflow-hidden d-block text-normal">
-    Do maintainers respond quickly to issues when they are opened?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox6" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox6" class = "overflow-hidden d-block text-normal">
+    Насколько быстро сопровождающие реагируют на проблемы, когда они открываются?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox7" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox7" class="overflow-hidden d-block text-normal">
-    Is there active discussion on the issues?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox7" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox7" class = "overflow-hidden d-block text-normal">
+    Идет ли активное обсуждение вопросов?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox8" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox8" class="overflow-hidden d-block text-normal">
-    Are the issues recent?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox8" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox8" class = "overflow-hidden d-block text-normal">
+    Проблемы недавние?
   </label>
 </div>
 
-<div class="clearfix mb-4">
-  <input type="checkbox" id="cbox9" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox9" class="overflow-hidden d-block text-normal">
-    Are issues getting closed? (On GitHub, click the "closed" tab on the Issues page to see closed issues.)
+<div class = "clearfix mb-4">
+  <input type = "checkbox" id = "cbox9" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox9" class = "overflow-hidden d-block text-normal">
+    Проблемы закрываются? (На GitHub щелкните вкладку «закрытые» на странице «Проблемы» (issues), чтобы увидеть закрытые проблемы.)
   </label>
 </div>
 
-Now do the same for the project's pull requests.
+Теперь проделайте то же самое с запросами на изменение проекта.
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox10" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox10" class="overflow-hidden d-block text-normal">
-    How many open pull requests are there?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox10" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox10" class = "overflow-hidden d-block text-normal">
+    Сколько существует открытых запросов на изменение?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox20" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox20" class="overflow-hidden d-block text-normal">
-    Do maintainers respond quickly to pull requests when they are opened?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox20" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox20" class = "overflow-hidden d-block text-normal">
+    Быстро ли реагируют сопровождающие на запросы на изменение, когда они открываются?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox11" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox11" class="overflow-hidden d-block text-normal">
-    Is there active discussion on the pull requests?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox11" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox11" class = "overflow-hidden d-block text-normal">
+    Есть ли активное обсуждение запросов на изменение?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox12" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox12" class="overflow-hidden d-block text-normal">
-    Are the pull requests recent?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox12" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox12" class = "overflow-hidden d-block text-normal">
+    Были ли запросы на изменение недавно?
   </label>
 </div>
 
-<div class="clearfix mb-4">
-  <input type="checkbox" id="cbox13" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox13" class="overflow-hidden d-block text-normal">
-    How recently were any pull requests merged? (On GitHub, click the "closed" tab on the Pull Requests page to see closed PRs.)
+<div class = "clearfix mb-4">
+  <input type = "checkbox" id = "cbox13" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox13" class = "overflow-hidden d-block text-normal">
+    Как недавно были объединены запросы на изменение? (На GitHub щелкните вкладку «закрытые» на странице «Запросы на изменение, чтобы увидеть закрытые PR.)
   </label>
 </div>
 
-**Project is welcoming**
+**Проект приветливый**
 
-A project that is friendly and welcoming signals that they will be receptive to new contributors.
+Дружелюбный и приветливый проект сигнализирует о том, что они будут восприимчивы к новым участникам.
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox14" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox14" class="overflow-hidden d-block text-normal">
-    Do the maintainers respond helpfully to questions in issues?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox14" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox14" class = "overflow-hidden d-block text-normal">
+    Отвечают ли сопровождающие услужливо на вопросы в проблемах (issues)?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox15" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox15" class="overflow-hidden d-block text-normal">
-    Are people friendly in the issues, discussion forum, and chat (for example, IRC or Slack)?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox15" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox15" class = "overflow-hidden d-block text-normal">
+    Дружелюбны ли люди в вопросах, дискуссионном форуме и чате (например, IRC или Slack)?
   </label>
 </div>
 
-<div class="clearfix mb-2">
-  <input type="checkbox" id="cbox16" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox16" class="overflow-hidden d-block text-normal">
-    Do pull requests get reviewed?
+<div class = "clearfix mb-2">
+  <input type = "checkbox" id = "cbox16" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox16" class = "overflow-hidden d-block text-normal">
+    Проверяются ли запросы на изменение?
   </label>
 </div>
 
-<div class="clearfix mb-4">
-  <input type="checkbox" id="cbox17" class="d-block float-left mt-1 mr-2" value="checkbox">
-  <label for="cbox17" class="overflow-hidden d-block text-normal">
-    Do maintainers thank people for their contributions?
+<div class = "clearfix mb-4">
+  <input type = "checkbox" id = "cbox17" class = "d-block float-left mt-1 mr-2" value = "checkbox">
+  <label for = "cbox17" class = "overflow-hidden d-block text-normal">
+    Сопровождающие благодарят людей за их вклад?
   </label>
 </div>
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/kfogel?s=180" class="pquote-avatar" alt="avatar">
-  Whenever you see a long thread, spot check responses from core developers coming late in the thread. Are they summarizing constructively, and taking steps to bring the thread to a decision while remaining polite? If you see a lot of flame wars going on, that's often a sign that energy is going into argument instead of into development.
-  <p markdown="1" class="pquote-credit">
-— @kfogel, [_Producing OSS_](https://producingoss.com/en/evaluating-oss-projects.html)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/kfogel?s=180" class = "pquote-avatar" alt = "avatar">
+  Всякий раз, когда вы видите длинное обсуждение, выборочно проверяйте ответы основных разработчиков, которые приходят в конце обсуждения. Подводят ли они конструктивные выводы и предпринимают ли шаги, чтобы довести обсуждение до решения, оставаясь при этом вежливыми? Если вы видите, что идет много пламенных войн, это часто является признаком того, что энергия идет на споры, а не на развитие.
+  <p markdown = "1" class = "pquote-credit">
+- @kfogel, [_Proroduction OSS_](https://prodingoss.com/en/evaluating-oss-projects.html)
   </p>
 </aside>
 
-## How to submit a contribution
+## Как отправить вклад
 
-You've found a project you like, and you're ready to make a contribution. Finally! Here's how to get your contribution in the right way.
+Вы нашли проект, который вам нравится, и готовы внести свой вклад. Наконец-то! Вот как правильно получить свой вклад.
 
-### Communicating effectively
+### Эффективное общение
 
-Whether you're a one-time contributor or trying to join a community, working with others is one of the most important skills you'll develop in open source.
+Независимо от того, являетесь ли вы единовременным участником или пытаетесь присоединиться к сообществу, работа с другими - один из самых важных навыков, которые вы разовьете в работе с открытым исходным кодом.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/shubheksha?s=180" class="pquote-avatar" alt="avatar">
-  \[As a new contributor,\] I quickly realized I had to ask questions if I wanted to be able to close the issue. I skimmed through the code base. Once I had some sense of what was going on, I asked for more direction. And voilà! I was able to solve the issue after getting all the relevant details I needed.
-  <p markdown="1" class="pquote-credit">
-— @shubheksha, [A Beginner's Very Bumpy Journey Through The World of Open Source](https://www.freecodecamp.org/news/a-beginners-very-bumpy-journey-through-the-world-of-open-source-4d108d540b39/)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/shubheksha?s=180" class = "pquote-avatar" alt = "avatar">
+  \[Как новый участник\] я быстро понял, что мне нужно задавать вопросы, если я хочу иметь возможность закрыть проблему. Я просмотрел кодовую базу. Как только я получил некоторое представление о том, что происходит, я попросил дополнительных указаний. И вуаля! Я смог решить проблему после получения всей необходимой мне информации.
+  <p markdown = "1" class = "pquote-credit">
+- @shubheksha, [Очень ухабистое путешествие новичка по миру открытого исходного кода](https://www.freecodecamp.org/news/a-beginners-very-bumpy-journey-through-the-world-of-open-source-4d108d540b39/)
   </p>
 </aside>
 
-Before you open an issue or pull request, or ask a question in chat, keep these points in mind to help your ideas come across effectively.
+Прежде чем открывать проблему, запрос на изменение или задавать вопрос в чате, помните об этих моментах, чтобы ваши идеи могли эффективно воплощаться в жизнь.
 
-**Give context.** Help others get quickly up to speed. If you're running into an error, explain what you're trying to do and how to reproduce it. If you're suggesting a new idea, explain why you think it'd be useful to the project (not just to you!).
+**Дайте контекст.** Помогите другим быстро освоиться. Если вы столкнулись с ошибкой, объясните, что вы пытаетесь сделать и как ее воспроизвести. Если вы предлагаете новую идею, объясните, почему вы думаете, что она будет полезна для проекта (не только для вас!).
 
-> 😇 _"X doesn't happen when I do Y"_
+> 😇 _"Х не происходит, когда я делаю Y"_
 >
-> 😢 _"X is broken! Please fix it."_
+> 😢 _"X не работает! Исправьте это."_
 
-**Do your homework beforehand.** It's OK not to know things, but show that you tried. Before asking for help, be sure to check a project's README, documentation, issues (open or closed), mailing list, and search the internet for an answer. People will appreciate when you demonstrate that you're trying to learn.
+**Сделайте домашнее задание заранее.** Это нормально не знать что-то, но показать, что вы пробовали. Прежде чем обращаться за помощью, обязательно проверьте README проекта, документацию, проблемы (открытые или закрытые), список рассылки и поищите ответ в Интернете. Люди оценят, когда вы продемонстрируете, что пытаетесь учиться.
 
-> 😇 _"I'm not sure how to implement X. I checked the help docs and didn't find any mentions."_
+> 😇 _"Я не знаю, как реализовать X. Я проверил справочную документацию и не нашел никаких упоминаний."_
 >
-> 😢 _"How do I X?"_
+> 😢 _"Как мне сделать X?"_
 
-**Keep requests short and direct.** Much like sending an email, every contribution, no matter how simple or helpful, requires someone else's review. Many projects have more incoming requests than people available to help. Be concise. You will increase the chance that someone will be able to help you.
+**Делайте запросы краткими и прямыми.** Как и при отправке электронного письма, каждое сообщение, независимо от того, насколько оно простое или полезное, требует чьей-то проверки. Многие проекты имеют больше поступающих запросов, чем людей, готовых помочь. Будьте лаконичны. Вы увеличите шанс того, что кто-то сможет вам помочь.
 
-> 😇 _"I'd like to write an API tutorial."_
+> 😇 _"Я хотел бы написать руководство по API."_
 >
-> 😢 _"I was driving down the highway the other day and stopped for gas, and then I had this amazing idea for something we should be doing, but before I explain that, let me show you..."_
+> 😢 _"На днях я ехал по шоссе и остановился заправиться, и тогда у меня возникла замечательная идея, чем мы должны заняться, но прежде чем я это объясню, позвольте мне показать вам ..."_
 
-**Keep all communication public.** Although it's tempting, don't reach out to maintainers privately unless you need to share sensitive information (such as a security issue or serious conduct violation). When you keep the conversation public, more people can learn and benefit from your exchange. Discussions can be, in themselves, contributions.
+**Держите все сообщения общедоступными.** Хотя это заманчиво, не обращайтесь к сопровождающим в частном порядке, если вам не нужно делиться конфиденциальной информацией (например, о проблеме безопасности или серьезном нарушении поведения). Если вы сделаете общение публичным, больше людей смогут узнать о нем и извлечь из него пользу. Обсуждения сами по себе могут быть вкладом.
 
-> 😇 _(as a comment) "@-maintainer Hi there! How should we proceed on this PR?"_
+> 😇 _(в качестве комментария) «@-сопровождающий Привет! Как нам обработать этот запрос на изменение?» _
 >
-> 😢 _(as an email) "Hey there, sorry to bother you over email, but I was wondering if you've had a chance to review my PR"_
+> 😢 _(по электронной почте) «Привет, извини, что побеспокоил тебя по электронной почте, но мне было интересно, была ли у тебя возможность просмотреть мой PR»_
 
-**It's okay to ask questions (but be patient!).** Everybody was new to the project at some point, and even experienced contributors need to get up to speed when they look at a new project. By the same token, even longtime maintainers are not always familiar with every part of the project. Show them the same patience that you'd want them to show to you.
+**Можно задавать вопросы (но будьте терпеливы!).** В какой-то момент каждый был новичком в проекте, и даже опытным участникам нужно время освоиться, когда они смотрят на новую задачу. Даже давние сопровождающие не всегда знакомы со всеми частями проекта. Проявите к ним такое же терпение, какое вы бы хотели, чтобы они проявили к вам.
 
-> 😇 _"Thanks for looking into this error. I followed your suggestions. Here's the output."_
+> 😇 _"Спасибо, что разобрались с этой ошибкой. Я последовал вашим предложениям. Вот результат."_
 >
-> 😢 _"Why can't you fix my problem? Isn't this your project?"_
+> 😢 _"Почему вы не можете решить мою проблему? Разве это не ваш проект?"_
 
-**Respect community decisions.** Your ideas may differ from the community's priorities or vision. They may offer feedback or decide not to pursue your idea. While you should discuss and look for compromise, maintainers have to live with your decision longer than you will. If you disagree with their direction, you can always work on your own fork or start your own project.
+**Уважайте решения сообщества.** Ваши идеи могут отличаться от приоритетов или видения сообщества. Они могут предложить обратную связь или отказаться от реализации вашей идеи. Хотя вам следует обсуждать и искать компромисс, сопровождающие должны жить с вашим решением дольше, чем вы. Если вы не согласны с их направлением, вы всегда можете работать над собственным ответвлением проекта (fork) или начать собственный проект.
 
-> 😇 _"I'm disappointed you can't support my use case, but as you've explained it only affects a minor portion of users, I understand why. Thanks for listening."_
+> 😇 _"Я разочарован, что вы не можете поддержать мой вариант использования, но, как вы объяснили, он затрагивает только небольшую часть пользователей, я понимаю почему. Спасибо за внимание."_
 >
-> 😢 _"Why won't you support my use case? This is unacceptable!"_
+> 😢 _"Почему вы не поддерживаете мой вариант использования? Это недопустимо!"_
 
-**Above all, keep it classy.** Open source is made up of collaborators from all over the world. Context gets lost across languages, cultures, geographies, and time zones. In addition, written communication makes it harder to convey a tone or mood. Assume good intentions in these conversations. It's fine to politely push back on an idea, ask for more context, or further clarify your position. Just try to leave the internet a better place than when you found it.
+**Главное, чтобы он был стильным.** Открытый исходный код состоит из соавторов со всего мира. Контекст теряется из-за языков, культур, географических регионов и часовых поясов. Кроме того, письменное общение затрудняет передачу тона или настроения. В этих разговорах предполагайте добрые намерения. Это нормально - вежливо оттолкнуть идею, попросить более подробный контекст или дополнительно прояснить свою позицию. Просто постарайтесь сделать Интернет лучше, чем когда вы его нашли.
 
-### Gathering context
+### Сбор контекста
 
-Before doing anything, do a quick check to make sure your idea hasn't been discussed elsewhere. Skim the project's README, issues (open and closed), mailing list, and Stack Overflow. You don't have to spend hours going through everything, but a quick search for a few key terms goes a long way.
+Прежде чем что-либо делать, сделайте быструю проверку, чтобы убедиться, что ваша идея больше нигде не обсуждалась. Просмотрите README проекта, проблемы (открытые и закрытые), список рассылки и Stack Overflow. Вам не нужно тратить часы на все, но быстрый поиск нескольких ключевых слов имеет большое значение.
 
-If you can't find your idea elsewhere, you're ready to make a move. If the project is on GitHub, you'll likely communicate by opening an issue or pull request:
+Если вы не можете найти свою идею в другом месте, вы готовы к действию. Если проект находится на GitHub, вы, скорее всего, будете общаться, открыв задачу или запрос на изменение:
 
-- **Issues** are like starting a conversation or discussion
-- **Pull requests** are for starting work on a solution
-- **For lightweight communication,** such as a clarifying or how-to question, try asking on Stack Overflow, IRC, Slack, or other chat channels, if the project has one
+- **Проблемы** похожи на начало разговора или обсуждения
+- **Запросы на изменение** предназначены для начала работы над решением.
+- **Для легкого общения**, например, уточняющего или практического вопроса, попробуйте задать вопрос в Stack Overflow, IRC, Slack или других каналах чата, если он есть в проекте.
 
-Before you open an issue or pull request, check the project's contributing docs (usually a file called CONTRIBUTING, or in the README), to see whether you need to include anything specific. For example, they may ask that you follow a template, or require that you use tests.
+Прежде чем открывать задачу или запрос на изменение (pull request), проверьте документацию проекта (обычно это файл с именем CONTRIBUTING или README), чтобы узнать, нужно ли вам включать что-нибудь конкретное. Например, они могут попросить вас следовать шаблону или потребовать, чтобы вы использовали тесты.
 
-If you want to make a substantial contribution, open an issue to ask before working on it. It's helpful to watch the project for a while (on GitHub, [you can click "Watch"](https://help.github.com/articles/watching-repositories/) to be notified of all conversations), and get to know community members, before doing work that might not get accepted.
+Если вы хотите внести существенный вклад, задайте вопрос, прежде чем работать над ним. Полезно некоторое время понаблюдать за проектом (на GitHub [вы можете нажать «Смотреть»](https://help.github.com/articles/watching-repositories/), чтобы получать уведомления обо всех разговорах) и перейти знакомству с членами сообщества, прежде чем выполнять работу, которую могут не принять.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/gaearon?s=180" class="pquote-avatar" alt="avatar">
-  You'll learn <em>a lot</em> from taking a single project you actively use, "watching" it on GitHub and reading every issue and PR.
-<p markdown="1" class="pquote-credit">
-— @gaearon [on joining projects](https://twitter.com/dan_abramov/status/819555257055322112)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/gaearon?s=180" class = "pquote-avatar" alt = "avatar">
+  Вы научитесь <em>многому</em>, взяв один проект, который вы активно используете, "посмотрев" его на GitHub и прочитав все выпуски и PR.
+<p markdown = "1" class = "pquote-credit">
+- @gaearon [о присоединении к проектам](https://twitter.com/dan_abramov/status/819555257055322112)
   </p>
 </aside>
 
-### Opening an issue
+### Открытие проблемы (issue)
 
-You should usually open an issue in the following situations:
+Обычно вам следует открывать проблему в следующих ситуациях:
 
-- Report an error you can't solve yourself
-- Discuss a high-level topic or idea (for example, community, vision or policies)
-- Propose a new feature or other project idea
+- Сообщить об ошибке, которую вы не можете решить самостоятельно
+- Обсудить общую тему или идею (например, сообщество, видение или политику)
+- Предложить новую функцию или другую идею проекта
 
-Tips for communicating on issues:
+Советы по общению по проблемам (issue):
 
-- **If you see an open issue that you want to tackle,** comment on the issue to let people know you're on it. That way, people are less likely to duplicate your work.
-- **If an issue was opened a while ago,** it's possible that it's being addressed somewhere else, or has already been resolved, so comment to ask for confirmation before starting work.
-- **If you opened an issue, but figured out the answer later on your own,** comment on the issue to let people know, then close the issue. Even documenting that outcome is a contribution to the project.
+- **Если вы видите открытую проблему, которую хотите решить,** прокомментируйте проблему, чтобы люди знали, что вы ее решаете. Таким образом, люди с меньшей вероятностью будут дублировать вашу работу.
+- **Если проблема была открыта некоторое время назад,** возможно, что она решается где-то в другом месте или уже решена, поэтому прокомментируйте, чтобы запросить подтверждение перед началом работы.
+- **Если вы открыли вопрос, но позже самостоятельно выяснили ответ,** прокомментируйте проблему, чтобы люди знали, а затем закройте ее. Даже документирование этого результата является вкладом в проект.
 
-### Opening a pull request
+### Открытие запроса на изменение (pull request)
 
-You should usually open a pull request in the following situations:
+Обычно вы должны открывать запрос на изменение в следующих ситуациях:
 
-- Submit trivial fixes (for example, a typo, a broken link or an obvious error)
-- Start work on a contribution that was already asked for, or that you've already discussed, in an issue
+- Отправляйте тривиальные исправления (например, опечатку, неработающую ссылку или очевидную ошибку)
+- Начните работать над тем, что уже было запрошено или что вы уже обсуждали в вопросе (issue)
 
-A pull request doesn't have to represent finished work. It's usually better to open a pull request early on, so others can watch or give feedback on your progress. Just mark it as a "WIP" (Work in Progress) in the subject line. You can always add more commits later.
+Запрос на исправление не обязательно должен представлять законченную работу. Обычно лучше открывать запрос на изменение на раннем этапе, чтобы другие могли наблюдать за вашим прогрессом или оставлять отзывы о нем. Просто отметьте это как "WIP" (Work in Progress) «незавершенное производство» в строке темы. Вы всегда можете добавить больше коммитов позже.
 
-If the project is on GitHub, here's how to submit a pull request:
+Если проект находится на GitHub, вот как отправить запрос на перенос:
 
-- **[Fork the repository](https://guides.github.com/activities/forking/)** and clone it locally. Connect your local to the original "upstream" repository by adding it as a remote. Pull in changes from "upstream" often so that you stay up to date so that when you submit your pull request, merge conflicts will be less likely. (See more detailed instructions [here](https://help.github.com/articles/syncing-a-fork/).)
-- **[Create a branch](https://guides.github.com/introduction/flow/)** for your edits.
-- **Reference any relevant issues** or supporting documentation in your PR (for example, "Closes #37.")
-- **Include screenshots of the before and after** if your changes include differences in HTML/CSS. Drag and drop the images into the body of your pull request.
-- **Test your changes!** Run your changes against any existing tests if they exist and create new ones when needed. Whether tests exist or not, make sure your changes don't break the existing project.
-- **Contribute in the style of the project** to the best of your abilities. This may mean using indents, semi-colons or comments differently than you would in your own repository, but makes it easier for the maintainer to merge, others to understand and maintain in the future.
+- **[Скопируйте репозиторий](https://guides.github.com/activities/forking/)** и клонируйте его локально. Подключите ваш локальный компьютер к исходному «вышестоящему» репозиторию, добавив его как удаленный. Часто вносите изменения из «восходящего потока», чтобы оставаться в курсе последних событий, чтобы при отправке запроса на включение конфликты слияния были менее вероятными. (См. Более подробные инструкции [здесь](https://help.github.com/articles/syncing-a-fork/).)
+- **[Создать ветку](https://guides.github.com/introduction/flow/)** для ваших правок.
+- **Ссылайтесь на любые относящиеся к делу проблемы (issues)** или подтверждающую документацию в своем PR (например, Закрывает #37»).
+- **Включите скриншоты до и после**, если ваши изменения включают различия в HTML/CSS. Перетащите изображения в тело запроса на изменение.
+- **Протестируйте свои изменения!** Запустите свои изменения в сравнении с любыми существующими тестами, если они существуют, и при необходимости создайте новые. Независимо от того, существуют тесты или нет, убедитесь, что ваши изменения не нарушают существующий проект.
+- **Внесите свой вклад в стиль проекта** в меру своих возможностей. Это может означать использование отступов, точек с запятой или комментариев иначе, чем в вашем собственном репозитории, но упрощает для сопровождающего объединение, а другим - для понимания и поддержки в будущем.
 
-If this is your first pull request, check out [Make a Pull Request](http://makeapullrequest.com/), which @kentcdodds created as a walkthrough video tutorial. You can also practice making a pull request in the [First Contributions](https://github.com/Roshanjossey/first-contributions) repository, created by @Roshanjossey.
+Если это ваш первый запрос на изменение, ознакомьтесь с [Сделать запрос на извлечение](http://makeapullrequest.com/), который @kentcdodds создал как пошаговое видео-руководство. Вы также можете попрактиковаться в создании запроса на изменение в репозитории [Первые вклады](https://github.com/Roshanjossey/first-contributions), созданном @Roshanjossey.
 
-## What happens after you submit a contribution
+## Что происходит после того, как вы отправите свой вклад
 
-You did it! Congratulations on becoming an open source contributor. We hope it's the first of many.
+Вы сделали это! Поздравляем, вы стали участником программы с открытым исходным кодом. Надеемся, это первый из многих.
 
-After you submit a contribution, one of the following will happen:
+После того, как вы отправите вклад, произойдет одно из следующих событий:
 
-### 😭 You don't get a response.
+### 😭 Вы не получите ответ.
 
-Hopefully you [checked the project for signs of activity](#a-checklist-before-you-contribute) before making a contribution. Even on an active project, however, it's possible that your contribution won't get a response.
+Надеюсь, вы [проверили проект на наличие признаков активности](#a-checklist-before-you-contribute) перед тем, как внести свой вклад. Однако даже в активном проекте возможно, что ваш вклад не получит отклика.
 
-If you haven't gotten a response in over a week, it's fair to politely respond in that same thread, asking someone for a review. If you know the name of the right person to review your contribution, you can @-mention them in that thread.
+Если вы не получили ответа в течение недели, будет справедливо вежливо ответить в той же теме и попросить кого-нибудь дать отзыв. Если вы знаете имя человека, который рассмотрит ваш вклад, вы можете @-упомянуть его в этой ветке.
 
-**Don't** reach out to that person privately; remember that public communication is vital to open source projects.
+**Не** обращайтесь к этому человеку в частном порядке; помните, что публичное общение жизненно важно для проектов с открытым исходным кодом.
 
-If you make a polite bump and still nobody responds, it's possible that nobody will respond, ever. It's not a great feeling, but don't let that discourage you. It's happened to everyone! There are many possible reasons why you didn't get a response, including personal circumstances that may be out of your control. Try to find another project or way to contribute. If anything, this is a good reason not to invest too much time in making a contribution before other community members are engaged and responsive.
+Если вы сделаете вежливое напоминание, но никто не ответит, возможно, что никто и никогда не ответит. Это не самое приятное чувство, но пусть это вас не расстраивает. Это случилось со всеми! Существует множество возможных причин, по которым вы не получили ответа, в том числе личные обстоятельства, которые вы не можете контролировать. Попробуйте найти другой проект или способ внести свой вклад. Во всяком случае, это хорошая причина не тратить слишком много времени на внесение вклада, прежде чем другие члены сообщества будут вовлечены и откликнутся.
 
-### 🚧 Someone requests changes to your contribution.
+### 🚧 Кто-то просит изменить ваш вклад.
 
-It's common that you'll be asked to make changes to your contribution, whether that's feedback on the scope of your idea, or changes to your code.
+Часто вас просят внести изменения в свой вклад, будь то отзывы о масштабах вашей идеи или изменения в вашем коде.
 
-When someone requests changes, be responsive. They've taken the time to review your contribution. Opening a PR and walking away is bad form. If you don't know how to make changes, research the problem, then ask for help if you need it.
+Когда кто-то просит изменений, будьте отзывчивы. Они нашли время, чтобы проанализировать ваш вклад. Открывать PR и уходить - дурной тон. Если вы не знаете, как внести изменения, изучите проблему, а затем обратитесь за помощью, если она вам понадобится.
 
-If you don't have time to work on the issue anymore (for example, if the conversation has been going on for months, and your circumstances have changed), let the maintainer know so they're not expecting a response. Someone else may be happy to take over.
+Если у вас больше нет времени работать над проблемой (например, если разговор продолжается в течение нескольких месяцев и ваши обстоятельства изменились), сообщите об этом специалисту по сопровождению, чтобы он не ожидал ответа. Кто-то другой может быть счастлив взять на себя управление.
 
-### 👎 Your contribution doesn't get accepted.
+### 👎 Ваш вклад не принят.
 
-Your contribution may or may not be accepted in the end. Hopefully you didn't put too much work into it already. If you're not sure why it wasn't accepted, it's perfectly reasonable to ask the maintainer for feedback and clarification. Ultimately, however, you'll need to respect that this is their decision. Don't argue or get hostile. You're always welcome to fork and work on your own version if you disagree!
+Ваш вклад может быть принят или не принят в конце. Надеюсь, вы уже не вложили в это слишком много усилий. Если вы не уверены, почему он не был принят, вполне разумно попросить разработчика оставить отзыв и разъяснения. В конечном итоге, однако, вам нужно будет уважать, что это их решение. Не спорьте и не становитесь враждебными. Вы всегда можете сделать ответвление (fork) и работать над своей собственной версией, если не согласны!
 
-### 🎉 Your contribution gets accepted.
+### 🎉 Ваш вклад принят.
 
-Hooray! You've successfully made an open source contribution!
+Ура! Вы успешно сделали вклад с открытым исходным кодом!
 
-## You did it!
+## Вы сделали это!
 
-Whether you just made your first open source contribution, or you're looking for new ways to contribute, we hope you're inspired to take action. Even if your contribution wasn't accepted, don't forget to say thanks when a maintainer put effort into helping you. Open source is made by people like you: one issue, pull request, comment, or high-five at a time.
+Независимо от того, сделали ли вы свой первый вклад с открытым исходным кодом или ищете новые способы внести свой вклад, мы надеемся, что вы вдохновитесь на действия. Даже если ваш вклад не был принят, не забудьте сказать спасибо, когда сопровождающий приложит усилия, чтобы вам помочь. Открытый исходный код создается такими же людьми, как вы: одна проблема, запрос на изменение, комментарий или пять за раз.
