@@ -4,9 +4,9 @@ title: Создание дружного сообщества
 description: Создание сообщества, которое побуждает людей использовать ваш проект, вносить свой вклад и пропагандировать его.
 class: building
 toc:
-  setting-your-project-up-for-success: 'Настройка вашего проекта на успех'
-  growing-your-community: 'Развитие вашего сообщества'
-  resolving-conflicts: 'Разрешение конфликтов'
+  настройка-вашего-проекта-на-успех: 'Настройка вашего проекта на успех'
+  развитие-вашего-сообщества: 'Развитие вашего сообщества'
+  разрешение-конфликтов: 'Разрешение конфликтов'
 order: 4
 image: /assets/images/cards/building.png
 related:
@@ -16,7 +16,7 @@ related:
 
 ## Настройка вашего проекта на успех
 
-Вы запустили свой проект, распространяете информацию, и люди пробуют его. Потрясающе! Как заставить их остаться?
+Вы запустили свой проект, распространяете информацию, и люди пробуют его. Потрясающе! Как убедить их остаться?
 
 Доброжелательное сообщество - это инвестиция в будущее и репутацию вашего проекта. Если ваш проект только начинает получать вклад посторонних разработчиков, начните с того, чтобы дать первым участникам положительный опыт, чтобы им хотелось возвращаться.
 
@@ -28,253 +28,253 @@ related:
 
 Создавая свое сообщество, подумайте, как кто-то наверху воронки (потенциальный пользователь) теоретически может добраться до конца (активный сопровождающий). Ваша цель - уменьшить трение на каждом этапе взаимодействия с участником. Когда у людей легкие победы, они будут чувствовать стимул делать больше.
 
-Start with your documentation:
+Начните с вашей документации:
 
 - **Облегчите использование вашего проекта для любого желающего.** [Дружественное README](../starting-a-project/#составление-readme) а понятные примеры кода помогут любому, кто прикоснется к вашему проекту, начать работу.
 - **Объясните, как участвовать**, используя [руководство для участников](../starting-a-project/#написание-руководства-для-участников) и оперативно отвечая на вопросы (issues).
 - **Хорошие первые вопросы (issues)**: чтобы помочь новым участникам начать работу, явно рассмотрите [ярлыки вопросов, которые достаточно просты для начинающих](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). Затем Гитхаб выведет эти вопросы в различных местах платформы, увеличивая полезный вклад и уменьшая трение пользователей, решающих проблемы, которые слишком сложны для их уровня.
 
-[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
+[Обзор открытого исходного кода GitHub за 2017 год](http://opensourcesurvey.org/2017/) показал, что неполная или запутанная документация является самой большой проблемой для пользователей открытого исходного кода. Хорошая документация побуждает людей взаимодействовать с вашим проектом. В конце концов, кто-то откроет вопрос (issue) или запрос на изменение (pull request). Используйте эти взаимодействия как возможности для продвижения их по воронке.
 
-- **When someone new lands on your project, thank them for their interest!** It only takes one negative experience to make someone not want to come back.
-- **Be responsive.** If you don't respond to their issue for a month, chances are, they've already forgotten about your project.
-- **Be open-minded about the types of contributions you'll accept.** Many contributors start with a bug report or small fix. There are [many ways to contribute](../how-to-contribute/#what-it-means-to-contribute) to a project. Let people help how they want to help.
-- **If there's a contribution you disagree with,** thank them for their idea and [explain why](../best-practices/#learning-to-say-no) it doesn't fit into the scope of the project, linking to relevant documentation if you have it.
+- **Когда кто-то новый попадает в ваш проект, поблагодарите его за проявленный интерес!** Достаточно одного негативного опыта, чтобы кто-то не захотел возвращаться.
+- **Будьте отзывчивы.** Если вы не отвечаете на их вопрос в течение месяца, скорее всего, они уже забыли о вашем проекте.
+- **Будьте открыты в отношении помощи, которую вы примете.** Многие участники начинают с отчета об ошибке или небольшого исправления. Есть [много способов внести свой вклад](../how-to-contribute/#что-значит-внести-свой-вклад-to-contribute) в проект. Позвольте людям помочь так, как они хотят помочь.
+- **Если есть предложение, с которым вы не согласны,** поблагодарите их за идею и [объясните, почему](../best-practices/#учитесь-говорить-нет), это не вписывается в рамки проекта со ссылкой на соответствующую документацию, если она у вас есть.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/mikeal?s=180" class="pquote-avatar" alt="avatar">
-  Contributing to open source is easier for some than others. There's a lot of fear of being yelled at for not doing something right or just not fitting in. (...) By giving contributors a place to contribute with very low technical proficiency (documentation, web content markdown, etc) you can greatly reduce those concerns.
-  <p markdown="1" class="pquote-credit">
-— @mikeal, ["Growing a contributor base in modern open source"](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/mikeal?s=180" class = "pquote-avatar" alt = "avatar">
+  Некоторым легче внести свой вклад в развитие открытого исходного кода, чем другим. Есть много опасений, что на них будут кричать за то, что они что-то не делают правильно или просто не подходят. (...) Предоставляя участникам возможность вносить свой вклад с очень низким уровнем технической подготовки (документация, разметка веб-контента и т.д.), вы можете значительно сократить эти проблемы.
+  <p markdown = "1" class = "pquote-credit">
+- @mikeal, [«Расширение базы участников в современном открытом исходном коде»](https://opensource.com/life/16/5/growing-contributor-base-modern-open-source)
   </p>
 </aside>
 
-The majority of open source contributors are "casual contributors": people who contribute to a project only occasionally. A casual contributor may not have time to get fully up to speed with your project, so your job is to make it easy for them to contribute.
+Большинство участников открытого исходного кода являются «случайными»: людьми, которые вносят свой вклад в проект лишь от случая к случаю. У случайного участника может не быть времени, чтобы полностью освоить ваш проект, поэтому ваша задача - упростить для него участие.
 
-Encouraging other contributors is an investment in yourself, too. When you empower your biggest fans to run with the work they're excited about, there's less pressure to do everything yourself.
+Поощрение других участников - тоже вложение в себя. Когда вы позволяете своим самым большим поклонникам заниматься тем, чем они увлечены, становится меньше необходимости делать все самостоятельно.
 
-### Document everything
+### Документируйте все
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/janl?s=180" class="pquote-avatar" alt="avatar">
-  Have you ever been to a (tech-) event where you didn't know anyone, but everyone else seemed to stand in groups and chat like old friends? (...) Now imagine you want to contribute to an open source project, but you don't see why or how this is happening.
-  <p markdown="1" class="pquote-credit">
-— @janl, ["Sustainable Open Source"](https://writing.jan.io/2015/11/20/sustainable-open-source.html)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/janl?s=180" class = "pquote-avatar" alt = "avatar">
+  Вы когда-нибудь были на (техническом) мероприятии, где вы никого не знали, но все остальные, казалось, собирались группами и болтали, как старые друзья? (...) Теперь представьте, что вы хотите внести свой вклад в проект с открытым исходным кодом, но вы не понимаете, почему и как это происходит.
+  <p markdown = "1" class = "pquote-credit">
+- @janl, [«Устойчивый открытый исходный код»](https://writing.jan.io/2015/11/20/sustainable-open-source.html)
   </p>
 </aside>
 
-When you start a new project, it may feel natural to keep your work private. But open source projects thrive when you document your process in public.
+Когда вы начинаете новый проект, может показаться естественным сохранить конфиденциальность своей работы. Но проекты с открытым исходным кодом процветают, когда вы публично документируете свой процесс.
 
-When you write things down, more people can participate at every step of the way. You might get help on something you didn't even know you needed.
+Когда вы что-то записываете, на каждом этапе пути может участвовать больше людей. Вы можете получить помощь в том, о чем даже не подозревали.
 
-Writing things down means more than just technical documentation. Any time you feel the urge to write something down or privately discuss your project, ask yourself whether you can make it public.
+Запись означает больше, чем просто техническая документация. Каждый раз, когда вы чувствуете желание записать что-то или обсудить свой проект в частном порядке, спросите себя, можете ли вы сделать его общедоступным.
 
-Be transparent about your project's roadmap, the types of contributions you're looking for, how contributions are reviewed, or why you made certain decisions.
+Будьте прозрачны в отношении дорожной карты вашего проекта, типов вкладов, которые вы ищете, того, как оцениваются вклады, или почему вы приняли определенные решения.
 
-If you notice multiple users running into the same problem, document the answers in the README.
+Если вы заметили, что несколько пользователей сталкиваются с одной и той же проблемой, задокументируйте ответы в README.
 
-For meetings, consider publishing your notes or takeaways in a relevant issue. The feedback you'll get from this level of transparency may surprise you.
+Для встреч рассмотрите возможность публикации заметок или выводов по актуальному вопросу. Отзывы, которые вы получите от такого уровня прозрачности, могут вас удивить.
 
-Documenting everything applies to the work you do, too. If you're working on a substantial update to your project, put it into a pull request and mark it as a work in progress (WIP). That way, other people can feel involved in the process early on.
+Документирование всего относится и к вашей работе. Если вы работаете над существенным обновлением своего проекта, поместите его в запрос на перенос и отметьте его как незавершенное (WIP). Таким образом, другие люди могут почувствовать себя вовлеченными в процесс на ранней стадии.
 
-### Be responsive
+### Будьте отзывчивы
 
-As you [promote your project](../finding-users), people will have feedback for you. They may have questions about how things work, or need help getting started.
+По мере того, как вы [продвигаете свой проект](../find-users), люди будут получать от вас обратную связь. У них могут быть вопросы о том, как все работает, или им может потребоваться помощь для начала работы.
 
-Try to be responsive when someone files an issue, submits a pull request, or asks a question about your project. When you respond quickly, people will feel they are part of a dialogue, and they'll be more enthusiastic about participating.
+Постарайтесь оперативно реагировать, когда кто-то задаёт вопрос, отправляет запрос на перенос или задает вопрос о вашем проекте. Если вы ответите быстро, люди почувствуют себя участниками диалога и будут с большим энтузиазмом участвовать.
 
-Even if you can't review the request immediately, acknowledging it early helps increase engagement. Here's how @tdreyno responded to a pull request on [Middleman](https://github.com/middleman/middleman/pull/1466):
+Даже если вы не можете сразу просмотреть запрос, заблаговременное признание его поможет повысить вовлеченность. Вот как @tdreyno ответил на запрос на перенос [Middleman](https://github.com/middleman/middleman/pull/1466):
 
-![Middleman pull request](/assets/images/building-community/middleman_pr.png)
+![Запрос на включение посредника](/assets/images/building-community/middleman_pr.png)
 
-[A Mozilla study found that](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) contributors who received code reviews within 48 hours had a much higher rate of return and repeat contribution.
+[Исследование Mozilla показало, что](https://docs.google.com/presentation/d/1hsJLv1ieSqtXBzd5YZusY-mB8e1VJzaeOmh8Q4VeMio/edit#slide=id.g43d857af8_0177) участники, получившие гораздо более высокую оценку кода в течение 48 часов, совершили повторный вклад.
 
-Conversations about your project could also be happening in other places around the internet, such as Stack Overflow, Twitter, or Reddit. You can set up notifications in some of these places so you are alerted when someone mentions your project.
+Разговоры о вашем проекте также могут происходить в других местах в Интернете, таких как Stack Overflow, Twitter или Reddit. Вы можете настроить уведомления в некоторых из этих мест, чтобы получать их, когда кто-то упоминает ваш проект.
 
-### Give your community a place to congregate
+### Дайте вашему сообществу место для собраний
 
-There are two reasons to give your community a place to congregate.
+Есть две причины, чтобы дать вашему сообществу место для собраний.
 
-The first reason is for them. Help people get to know each other. People with common interests will inevitably want a place to talk about it. And when communication is public and accessible, anybody can read past archives to get up to speed and participate.
+Первая причина - для них. Помогите людям узнать друг друга. Люди с общими интересами неизбежно захотят, об этом поговорить. А когда общение открыто и доступно, любой может читать прошлые архивы, чтобы быть в курсе и участвовать.
 
-The second reason is for you. If you don't give people a public place to talk about your project, they will likely contact you directly. In the beginning, it may seem easy enough to respond to private messages "just this once". But over time, especially if your project becomes popular, you will feel exhausted. Resist the temptation to communicate with people about your project in private. Instead, direct them to a designated public channel.
+Вторая причина - для вас. Если вы не предоставите людям публичное место для обсуждения вашего проекта, они, скорее всего, свяжутся с вами напрямую. Вначале может показаться достаточно простым ответить на личные сообщения «только один раз». Но со временем, особенно если ваш проект станет популярным, вы почувствуете себя истощенным. Не поддавайтесь искушению поговорить с людьми о своем проекте наедине. Вместо этого направьте их на назначенный общедоступный канал.
 
-Public communication can be as simple as directing people to open an issue instead of emailing you directly or commenting on your blog. You could also set up a mailing list, or create a Twitter account, Slack, or IRC channel for people to talk about your project. Or try all of the above!
+Публичное общение может быть таким же простым, как указание людям открыть проблему вместо того, чтобы писать вам напрямую или комментировать ваш блог. Вы также можете настроить список рассылки или создать учетную запись Twitter, Slack или IRC-канал, чтобы люди говорили о вашем проекте. Или попробуйте все вышеперечисленное!
 
-[Kubernetes kops](https://github.com/kubernetes/kops#getting-involved) sets aside office hours every other week to help community members:
+[Kubernetes kops](https://github.com/kubernetes/kops#getting-involved) каждые две недели выделяет рабочие часы, чтобы помочь участникам сообщества:
 
-> Kops also has time set aside every other week to offer help and guidance to the community. Kops maintainers have agreed to set aside time specifically dedicated to working with newcomers, helping with PRs, and discussing new features.
+> Копы также выделяют время раз в две недели, чтобы предложить помощь и руководство сообществу. Сопровождающие Копов согласились выделить время, специально предназначенное для работы с новичками, помощи с PR и обсуждения новых функций.
 
-Notable exceptions to public communication are: 1) security issues and 2) sensitive code of conduct violations. You should always have a way for people to report these issues privately. If you don't want to use your personal email, set up a dedicated email address.
+Заметными исключениями из публичного общения являются: 1) проблемы безопасности и 2) конфиденциальные нарушения кодекса поведения. У вас всегда должна быть возможность сообщить об этих проблемах в частном порядке. Если вы не хотите использовать свою личную электронную почту, создайте специальный адрес электронной почты.
 
-## Growing your community
+## Развитие вашего сообщества
 
-Communities are extremely powerful. That power can be a blessing or a curse, depending on how you wield it. As your project's community grows, there are ways to help it become a force of construction, not destruction.
+Сообщества чрезвычайно сильны. Эта сила может быть благословением или проклятием, в зависимости от того, как вы ею владеете. По мере роста сообщества вашего проекта есть способы помочь ему стать силой созидания, а не разрушения.
 
-### Don't tolerate bad actors
+### Не терпите плохих участников
 
-Any popular project will inevitably attract people who harm, rather than help, your community. They may start unnecessary debates, quibble over trivial features, or bully others.
+Любой популярный проект неизбежно привлечет людей, которые скорее вредят, чем помогают вашему сообществу. Они могут начать ненужные споры, спорить о тривиальных особенностях или запугать других.
 
-Do your best to adopt a zero-tolerance policy towards these types of people. If left unchecked, negative people will make other people in your community uncomfortable. They may even leave.
+Сделайте все возможное, чтобы принять политику нулевой терпимости по отношению к этим типам людей. Если оставить это без внимания, негативные люди создадут дискомфорт другим людям в вашем сообществе. Они могут даже уйти.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/okdistribute?s=180" class="pquote-avatar" alt="avatar">
-  The truth is that having a supportive community is key. I'd never be able to do this work without the help of my colleagues, friendly internet strangers, and chatty IRC channels. (...) Don't settle for less. Don't settle for assholes.
-  <p markdown="1" class="pquote-credit">
-— @okdistribute, ["How to Run a FOSS Project"](https://okdistribute.xyz/post/okf-de)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/okdistribute?s=180" class = "pquote-avatar" alt = "avatar">
+  Правда в том, что наличие поддерживающего сообщества является ключевым моментом. Я бы никогда не справилась с этой работой без помощи моих коллег, дружелюбных незнакомцев в Интернете и болтливых каналов IRC. (...) Не соглашайтесь на меньшее. Не соглашайтесь на придурков.
+  <p markdown = "1" class = "pquote-credit">
+- @okdistribute, [«Как запустить проект с открытым исходным кодом»](https://okdistribute.xyz/post/okf-de)
   </p>
 </aside>
 
-Regular debates over trivial aspects of your project distracts others, including you, from focusing on important tasks. New people who arrive to your project may see these conversations and not want to participate.
+Регулярные дебаты о тривиальных аспектах вашего проекта отвлекают других, в том числе вас, от сосредоточения на важных задачах. Новые люди, которые приходят на ваш проект, могут видеть эти разговоры и не хотят участвовать.
 
-When you see negative behavior happening on your project, call it out publicly. Explain, in a kind but firm tone, why their behavior is not acceptable. If the problem persists, you may need to [ask them to leave](../code-of-conduct/#enforcing-your-code-of-conduct). Your [code of conduct](../code-of-conduct/) can be a constructive guide for these conversations.
+Когда вы видите негативное поведение в своем проекте, объявите об этом публично. Объясните добрым, но твердым тоном, почему их поведение неприемлемо. Если проблема не исчезнет, ​​вам может потребоваться [попросить их уйти](../code-of-conduct/#enforcing-your-code-of-conduct). Ваш [кодекс поведения] (../code-of-conduct/) может быть конструктивным руководством для этих разговоров.
 
-### Meet contributors where they're at
+### Познакомьтесь с участниками там, где они есть
 
-Good documentation only becomes more important as your community grows. Casual contributors, who may not otherwise be familiar with your project, read your documentation to quickly get the context they need.
+Хорошая документация становится только важнее по мере роста вашего сообщества. Случайные участники, которые иначе могут не быть знакомы с вашим проектом, читают вашу документацию, чтобы быстро получить контекст, в котором они нуждаются.
 
-In your CONTRIBUTING file, explicitly tell new contributors how to get started. You may even want to make a dedicated section for this purpose. [Django](https://github.com/django/django), for example, has a special landing page to welcome new contributors.
+В вашем файле CONTRIBUTING явным образом сообщите новым участникам, как начать работу. Возможно, вы даже захотите создать для этой цели специальный раздел. [Django](https://github.com/django/django), например, имеет специальную целевую страницу, чтобы приветствовать новых участников.
 
-![Django new contributors page](/assets/images/building-community/django_new_contributors.png)
+![Страница новых участников Django](/assets/images/building-community/django_new_contributors.png)
 
-In your issue queue, label bugs that are suitable for different types of contributors: for example, [_"first timers only"_](https://kentcdodds.com/blog/first-timers-only), _"good first issue"_, or _"documentation"_. [These labels](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) make it easy for someone new to your project to quickly scan your issues and get started.
+В очереди задач пометьте ошибки, которые подходят для разных типов участников: например, [_"только для новичков"_](https://kentcdodds.com/blog/first-timers-only), _"как составить первый вопрос"_, или _"документацию"_. [Эти ярлыки](https://github.com/librariesio/libraries.io/blob/6afea1a3354aef4672d9b3a9fc4cc308d60020c8/app/models/github_issue.rb#L8-L14) упрощают быстрое сканирование ваших вопросов для новичков в вашем проекте, чтобы начать действовать.
 
-Finally, use your documentation to make people feel welcome at every step of the way.
+Наконец, используйте свою документацию, чтобы люди чувствовали себя желанными на каждом этапе пути.
 
-You will never interact with most people who land on your project. There may be contributions you didn't receive because somebody felt intimidated or didn't know where to get started. Even a few kind words can keep someone from leaving your project in frustration.
+Вы никогда не будете взаимодействовать с большинством людей, которые попадают в ваш проект. Могут быть вклады, которые вы не получили, потому что кто-то испугался или не знал, с чего начать. Даже несколько добрых слов могут удержать кого-то от разочарования.
 
-For example, here's how [Rubinius](https://github.com/rubinius/rubinius/) starts [its contributing guide](https://github.com/rubinius/rubinius/blob/HEAD/.github/contributing.md):
+Например, вот как [Rubinius](https://github.com/rubinius/rubinius/) запускает [его руководство](https://github.com/rubinius/rubinius/blob/HEAD/.github/contributing.md):
 
-> We want to start off by saying thank you for using Rubinius. This project is a labor of love, and we appreciate all of the users that catch bugs, make performance improvements, and help with documentation. Every contribution is meaningful, so thank you for participating. That being said, here are a few guidelines that we ask you to follow so we can successfully address your issue.
+> Мы хотим начать с того, чтобы поблагодарить вас за использование Rubinius. Этот проект - плод любви, и мы ценим всех пользователей, которые вылавливают ошибки, улучшают производительность и помогают с документацией. Каждый вклад значим, поэтому спасибо за участие. При этом вот несколько рекомендаций, которым мы просим вас следовать, чтобы мы могли успешно решить вашу проблему.
 
-### Share ownership of your project
+### Совместное владение вашим проектом
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/sagesharp?s=180" class="pquote-avatar" alt="avatar">
-  Your leaders will have different opinions, as all healthy communities should! However, you need to take steps to ensure the loudest voice doesn't always win by tiring people out, and that less prominent and minority voices are heard.
-  <p markdown="1" class="pquote-credit">
-— @sagesharp, ["What makes a good community?"](https://sage.thesharps.us/2015/10/06/what-makes-a-good-community/)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/sagesharp?s=180" class = "pquote-avatar" alt = "avatar">
+  У ваших лидеров будут разные мнения, как и должно быть у всех здоровых сообществ! Однако вам необходимо предпринять шаги для обеспечения того, чтобы самый громкий голос не всегда побеждал, утомляя людей, и чтобы были слышны менее заметные голоса и голоса меньшинства.
+  <p markdown = "1" class = "pquote-credit">
+- @sagesharp, [«Что делает хорошее сообщество?»](https://sage.thesharps.us/2015/10/06/what-makes-a-good-community/)
   </p>
 </aside>
 
-People are excited to contribute to projects when they feel a sense of ownership. That doesn't mean you need to turn over your project's vision or accept contributions you don't want. But the more you give credit to others, the more they'll stick around.
+Люди рады вносить свой вклад в проекты, когда они чувствуют свою причастность. Это не значит, что вам нужно изменить видение своего проекта или принимать нежелательные вклады. Но чем больше вы доверяете другим, тем больше они остаются с вами.
 
-See if you can find ways to share ownership with your community as much as possible. Here are some ideas:
+Посмотрите, сможете ли вы найти способы как можно больше поделиться собственностью со своим сообществом. Вот несколько идей:
 
-- **Resist fixing easy (non-critical) bugs.** Instead, use them as opportunities to recruit new contributors, or mentor someone who'd like to contribute. It may seem unnatural at first, but your investment will pay off over time. For example, @michaeljoseph asked a contributor to submit a pull request on a [Cookiecutter](https://github.com/audreyr/cookiecutter) issue below, rather than fix it himself.
+- **Не поддавайтесь исправлению простых (некритических) ошибок.** Вместо этого используйте их как возможности для привлечения новых участников или наставничества тех, кто хотел бы внести свой вклад. Сначала это может показаться неестественным, но со временем ваши вложения окупятся. Например, @michaeljoseph попросил участника отправить запрос на перенос по проблеме [Cookiecutter](https://github.com/audreyr/cookiecutter), а не исправить ее сам.
 
-![Cookiecutter issue](/assets/images/building-community/cookiecutter_submit_pr.png)
+![Проблема с Cookiecutter](/assets/images/building-community/cookiecutter_submit_pr.png)
 
-- **Start a CONTRIBUTORS or AUTHORS file in your project** that lists everyone who's contributed to your project, like [Sinatra](https://github.com/sinatra/sinatra/blob/HEAD/AUTHORS.md) does.
+- **Запустите файл УЧАСТНИКИ или АВТОРЫ в своем проекте**, в котором перечислены все, кто внес свой вклад в ваш проект, как, например, [Sinatra](https://github.com/sinatra/sinatra/blob/HEAD/AUTHORS.md).
 
-- If you've got a sizable community, **send out a newsletter or write a blog post** thanking contributors. Rust's [This Week in Rust](https://this-week-in-rust.org/) and Hoodie's [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html) are two good examples.
+- Если у вас большое сообщество, **разошлите информационный бюллетень или напишите сообщение в блоге** с благодарностью участникам. [Эта неделя на Rust](https://this-week-in-rust.org/) от Rust и [Shoutouts](http://hood.ie/blog/shoutouts-week-24.html) от Hoodie - два хороших примера.
 
-- **Give every contributor commit access.** @felixge found that this made people [more excited to polish their patches](https://felixge.de/2013/03/11/the-pull-request-hack.html), and he even found new maintainers for projects that he hadn't worked on in awhile.
+- **Предоставьте каждому участнику доступ к коммитам.** @felixge обнаружил, что это заставило людей [с большим энтузиазмом оттачивать свои патчи](https://felixge.de/2013/03/11/the-pull-request-hack.html), и он даже нашел новых сопровождающих для проектов, над которыми давно не работал.
 
-- If your project is on GitHub, **move your project from your personal account to an [Organization](https://help.github.com/articles/creating-a-new-organization-account/)** and add at least one backup admin. Organizations make it easier to work on projects with external collaborators.
+- Если ваш проект размещен на GitHub, **переместите его из своей личной учетной записи в [Организацию](https://help.github.com/articles/creating-a-new-organization-account/)** и добавьте хотя бы одного администратора резервного копирования. Организации упрощают работу над проектами с внешними соавторами.
 
-The reality is that [most projects only have](https://peerj.com/preprints/1233.pdf) one or two maintainers who do most of the work. The bigger your project, and the bigger your community, the easier it is to find help.
+Реальность такова, что [в большинстве проектов есть](https://peerj.com/preprints/1233.pdf) один или два сопровождающих, которые делают большую часть работы. Чем крупнее ваш проект и чем больше ваше сообщество, тем легче найти помощь.
 
-While you may not always find someone to answer the call, putting a signal out there increases the chances that other people will pitch in. And the earlier you start, the sooner people can help.
+Хотя вы не всегда можете найти кого-то, кто ответит на призыв, подача сигнала увеличивает шансы, что другие люди вмешаются. И чем раньше вы начнете, тем скорее люди смогут помочь.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/gr2m?s=180" class="pquote-avatar" alt="avatar">
-  \[It's in your\] best interest to recruit contributors who enjoy and who are capable of doing the things that you are not. Do you enjoy coding, but not answering issues? Then identify those individuals in your community who do and let them have it.
-  <p markdown="1" class="pquote-credit">
-— @gr2m, ["Welcoming Communities"](http://hood.ie/blog/welcoming-communities.html)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/gr2m?s=180" class = "pquote-avatar" alt = "avatar">
+  \[В ваших\] интересах набирать участников, которым нравится и которые способны делать то, что вам не нравится. Вам нравится писать код, но вы не любите отвечать на вопросы? Определите людей в вашем сообществе, которые это делают, и дайте им это.
+  <p markdown = "1" class = "pquote-credit">
+- @gr2m, ["Приветливые сообщества"](http://hood.ie/blog/welcoming-communities.html)
   </p>
 </aside>
 
-## Resolving conflicts
+## Разрешение конфликтов
 
-In the early stages of your project, making major decisions is easy. When you want to do something, you just do it.
+На ранних стадиях проекта легко принимать важные решения. Когда вы хотите что-то сделать, вы просто делаете это.
 
-As your project becomes more popular, more people will take interest in the decisions you make. Even if you don't have a big community of contributors, if your project has a lot of users, you'll find people weighing in on decisions or raising issues of their own.
+По мере того, как ваш проект становится более популярным, все больше людей будут интересоваться вашими решениями. Даже если у вас нет большого сообщества участников, если у вашего проекта много пользователей, вы найдете людей, которые взвешивают решения или поднимают собственные проблемы.
 
-For the most part, if you've cultivated a friendly, respectful community and documented your processes openly, your community should be able to find resolution. But sometimes you run into an issue that's a bit harder to address.
+По большей части, если вы создали дружелюбное, уважительное сообщество и открыто задокументировали свои процессы, ваше сообщество должно найти решение. Но иногда вы сталкиваетесь с проблемой, которую немного сложнее решить.
 
-### Set the bar for kindness
+### Установите планку доброты
 
-When your community is grappling with a difficult issue, tempers may rise. People may become angry or frustrated and take it out on one another, or on you.
+Когда ваше сообщество борется с трудной проблемой, может подняться накал страстей. Люди могут рассердиться или расстроиться и обидеться друг на друга или на вас.
 
-Your job as a maintainer is to keep these situations from escalating. Even if you have a strong opinion on the topic, try to take the position of a moderator or facilitator, rather than jumping into the fight and pushing your views. If someone is being unkind or monopolizing the conversation, [act immediately](../building-community/#dont-tolerate-bad-actors) to keep discussions civil and productive.
+Ваша задача как сопровождающего - не допустить обострения подобных ситуаций. Даже если у вас есть твердое мнение по теме, постарайтесь занять позицию модератора или фасилитатора, вместо того, чтобы вступать в борьбу и продвигать свои взгляды. Если кто-то ведет себя недоброжелательно или монополизирует беседу, [действуйте немедленно](../building-community/#не-терпите-плохих-участников), чтобы обсуждение было вежливым и продуктивным.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/kennethreitz?s=180" class="pquote-avatar" alt="avatar">
-  As a project maintainer, it's extremely important to be respectful to your contributors. They often take what you say very personally.
-  <p markdown="1" class="pquote-credit">
-— @kennethreitz, ["Be Cordial or Be on Your Way"](https://web.archive.org/web/20200509154531/https://kenreitz.org/essays/be-cordial-or-be-on-your-way)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/kennethreitz?s=180" class = "pquote-avatar" alt = "avatar">
+  Сопровождающему проекта, чрезвычайно важно относиться с уважением к своим участникам. Они часто принимают то, что вы говорите, очень близко к сердцу.
+  <p markdown = "1" class = "pquote-credit">
+- @kennethreitz, [«Будьте сердечны или идите своим путем»](https://web.archive.org/web/20200509154531/https://kenreitz.org/essays/be-cordial-or-be-on-your-way)
   </p>
 </aside>
 
-Other people are looking to you for guidance. Set a good example. You can still express disappointment, unhappiness, or concern, but do so calmly.
+Другие люди ждут от вас совета. Подавайте хороший пример. Вы по-прежнему можете выражать разочарование, несчастье или беспокойство, но делайте это спокойно.
 
-Keeping your cool isn't easy, but demonstrating leadership improves the health of your community. The internet thanks you.
+Сохранять хладнокровие непросто, но демонстрация лидерства улучшает здоровье вашего сообщества. Интернет благодарит вас.
 
-### Treat your README as a constitution
+### Относитесь к README как к конституции
 
-Your README is [more than just a set of instructions](../starting-a-project/#составление-readme). It's also a place to talk about your goals, product vision, and roadmap. If people are overly focused on debating the merit of a particular feature, it may help to revisit your README and talk about the higher vision of your project. Focusing on your README also depersonalizes the conversation, so you can have a constructive discussion.
+Ваш README - это [больше, чем просто набор инструкций](../starting-a-project/#составление-readme). Это также место, где можно поговорить о ваших целях, видении продукта и планах развития. Если люди слишком сосредоточены на обсуждении достоинств той или иной функции, возможно, будет полезно вернуться к README и поговорить о более высоком видении вашего проекта. Сосредоточение внимания на README также обезличивает разговор, поэтому вы можете провести конструктивное обсуждение.
 
-### Focus on the journey, not the destination
+### Сосредоточьтесь на путешествии, а не на пункте назначения
 
-Some projects use a voting process to make major decisions. While sensible at first glance, voting emphasizes getting to an "answer," rather than listening to and addressing each other's concerns.
+В некоторых проектах для принятия важных решений используется процесс голосования. Хотя на первый взгляд разумно, голосование делает упор на поиске «ответа», а не на том, чтобы выслушивать и решать проблемы друг друга.
 
-Voting can become political, where community members feel pressured to do each other favors or vote a certain way. Not everybody votes, either, whether it's the [silent majority](https://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) in your community, or current users who didn't know a vote was taking place.
+Голосование может стать политическим, когда члены сообщества чувствуют давление, чтобы они оказали друг другу услуги или проголосовали определенным образом. Также не все голосуют, будь то [молчаливое большинство](https://ben.balter.com/2016/03/08/optimizing-for-power-users-and-edge-cases/#the-silent-majority-of-users) в вашем сообществе или пользователи, которые не знали, что голосование происходит.
 
-Sometimes, voting is a necessary tiebreaker. As much as you are able, however, emphasize ["consensus seeking"](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making) rather than consensus.
+Иногда голосование является необходимым условием разрешения конфликтов. Однако, насколько вы можете, делайте упор на [«поиск консенсуса»](https://en.wikipedia.org/wiki/Consensus-seeking_decision-making), а не на консенсусе.
 
-Under a consensus seeking process, community members discuss major concerns until they feel they have been adequately heard. When only minor concerns remain, the community moves forward. "Consensus seeking" acknowledges that a community may not be able to reach a perfect answer. Instead, it prioritizes listening and discussion.
+В процессе поиска консенсуса члены сообщества обсуждают основные проблемы до тех пор, пока не почувствуют, что их должным образом выслушали. Когда остаются лишь незначительные проблемы, сообщество движется вперед. «Поиск консенсуса» признает, что сообщество не может прийти к идеальному ответу. Вместо этого он отдает приоритет слушанию и обсуждению.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/lee-dohm?s=180" class="pquote-avatar" alt="avatar">
-  Part of the reason why a voting system doesn't exist for Atom Issues is because the Atom team isn't going to follow a voting system in all cases. Sometimes we have to choose what we feel is right even if it is unpopular. (...) What I can offer and pledge to do...is that it is my job to listen to the community.
-  <p markdown="1" class="pquote-credit">
-— @lee-dohm on [Atom's decisionmaking process](https://discuss.atom.io/t/prioritize-issues-feature-requests-based-on-voting-system/27642/2)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/lee-dohm?s=180" class = "pquote-avatar" alt = "avatar">
+  Отчасти причина того, что система голосования не существует для проблем Atom, заключается в том, что команда Atom не собирается следовать системе голосования во всех случаях. Иногда нам приходится выбирать то, что мы считаем правильным, даже если это непопулярно. (...) Что я могу предложить и обещаю сделать... это то, что моя работа - слушать сообщество.
+  <p markdown = "1" class = "pquote-credit">
+- @lee-dohm о [процессе принятия решений Atom](https://discuss.atom.io/t/prioritize-issues-feature-requests-based-on-voting-system/27642/2)
   </p>
 </aside>
 
-Even if you don't actually adopt a consensus seeking process, as a project maintainer, it's important that people know you are listening. Making other people feel heard, and committing to resolving their concerns, goes a long way to diffuse sensitive situations. Then, follow up on your words with actions.
+Даже если вы на самом деле не применяете процесс поиска консенсуса, как сопровождающий проекта, важно, чтобы люди знали, что вы их слушаете. Заставить других почувствовать себя услышанными и что вы стараетесь разрешить их проблемы в значительной степени помогает избавиться от деликатных ситуаций. Затем подкрепите свои слова действиями.
 
-Don't rush into a decision for the sake of having a resolution. Make sure that everybody feels heard and that all information has been made public before moving toward a resolution.
+Не торопитесь с решением ради разрешения. Убедитесь, что все чувствуют себя услышанными и что вся информация предана гласности, прежде чем переходить к решению.
 
-### Keep the conversation focused on action
+### Сосредоточьте разговор на действии
 
-Discussion is important, but there is a difference between productive and unproductive conversations.
+Обсуждение важно, но есть разница между продуктивным и непродуктивным разговором.
 
-Encourage discussion so long as it is actively moving towards resolution. If it's clear that conversation is languishing or going off-topic, jabs are getting personal, or people are quibbling about minor details, it's time to shut it down.
+Поощряйте обсуждение, пока оно активно движется к разрешению. Если ясно, что разговор вялится или уходит не по теме, уколы становятся личными или люди придираются к мелочам, пора его закрыть.
 
-Allowing these conversations to continue is not only bad for the issue at hand, but bad for the health of your community. It sends a message that these types of conversations are permitted or even encouraged, and it can discourage people from raising or resolving future issues.
+Продолжение этих разговоров плохо не только для решения рассматриваемой проблемы, но и для здоровья вашего сообщества. Он посылает сообщение о том, что такие разговоры разрешены или даже поощряются, и может оттолкнуть людей поднимать или решать будущие проблемы.
 
-With every point made by you or by others, ask yourself, _"How does this bring us closer to a resolution?"_
+С каждым замечанием, сделанным вами или другими, спрашивайте себя: _"Как это приближает нас к решению?"_
 
-If the conversation is starting to unravel, ask the group, _"Which steps should we take next?"_ to refocus the conversation.
+Если разговор начинает распадаться, спросите группу: _«Какие шаги мы должны предпринять дальше?»_, чтобы переориентировать разговор.
 
-If a conversation clearly isn't going anywhere, there are no clear actions to be taken, or the appropriate action has already been taken, close the issue and explain why you closed it.
+Если разговор явно никуда не придёт, нет четких действий, которые нужно предпринять, или соответствующие действия уже были предприняты, закройте проблему и объясните, почему вы ее закрыли.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/kfogel?s=180" class="pquote-avatar" alt="avatar">
-  Guiding a thread toward usefulness without being pushy is an art. It won't work to simply admonish people to stop wasting their time, or to ask them not to post unless they have something constructive to say. (...) Instead, you have to suggest conditions for further progress: give people a route, a path to follow that leads to the results you want, yet without sounding like you're dictating conduct.
-  <p markdown="1" class="pquote-credit">
-— @kfogel, [_Producing OSS_](https://producingoss.com/en/producingoss.html#common-pitfalls)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/kfogel?s=180" class = "pquote-avatar" alt = "avatar">
+  Направлять нить к полезности без навязчивости - это искусство. Не сработает просто увещевать людей перестать тратить свое время или просить их не публиковать сообщения, если у них нет чего-то конструктивного. (...) Вместо этого вы должны предложить условия для дальнейшего прогресса: дать людям маршрут, путь, по которому следует следовать, который приведет к желаемым результатам, но чтобы это не звучало, будто вы диктуете поведение.
+  <p markdown = "1" class = "pquote-credit">
+- @kfogel, [_Proroduction OSS_](https://produdingoss.com/en/produdingoss.html#common-pitfalls)
   </p>
 </aside>
 
-### Pick your battles wisely
+### Выбирайте битвы с умом
 
-Context is important. Consider who is involved in the discussion and how they represent the rest of the community.
+Контекст важен. Подумайте, кто участвует в обсуждении и как они представляют остальную часть сообщества.
 
-Is everybody in the community upset about, or even engaged with, this issue? Or is a lone troublemaker? Don't forget to consider your silent community members, not just the active voices.
+Все в сообществе расстроены или даже вовлечены в эту проблему? Или одинокий нарушитель спокойствия? Не забывайте принимать во внимание молчаливых членов вашего сообщества, а не только активные голоса.
 
-If the issue does not represent the broader needs of your community, you may just need to acknowledge the concerns of a few people. If this is a recurring issue without a clear resolution, point them to previous discussions on the topic and close the thread.
+Если проблема не отражает более широкие потребности вашего сообщества, возможно, вам просто нужно признать озабоченность нескольких человек. Если это повторяющаяся проблема без четкого решения, укажите на предыдущие обсуждения по этой теме и закройте ветку.
 
-### Identify a community tiebreaker
+### Определите, кто разрешает конфликты в сообществе
 
-With a good attitude and clear communication, most difficult situations are resolvable. However, even in a productive conversation, there can simply be a difference in opinion on how to proceed. In these cases, identify an individual or group of people that can serve as a tiebreaker.
+При хорошем отношении и четком общении самые сложные ситуации разрешимы. Однако даже в продуктивной беседе могут просто быть разные мнения о том, как действовать дальше. В этих случаях определите человека или группу людей, которые могут решить проблему.
 
-A tiebreaker could be the primary maintainer of the project, or it could be a small group of people who make a decision based on voting. Ideally, you've identified a tiebreaker and the associated process in a GOVERNANCE file before you ever have to use it.
+Решающим фактором может быть основной сопровождающий проекта или небольшая группа людей, которые принимают решение на основе голосования. В идеале вы определили средство разрешения конфликтов и связанный с ним процесс в файле GOVERNANCE, прежде чем вам когда-либо придется его использовать.
 
-Your tiebreaker should be a last resort. Divisive issues are an opportunity for your community to grow and learn. Embrace these opportunities and use a collaborative process to move to a resolution wherever possible.
+Тай-брейк должен быть последним средством. Спорные вопросы - это возможность для вашего сообщества расти и учиться. Воспользуйтесь этими возможностями и используйте совместный процесс, чтобы найти решение везде, где это возможно.
 
-## Community is the ❤️ of open source
+## Сообщество - это ❤️ открытого исходного кода
 
-Healthy, thriving communities fuel the thousands of hours poured into open source every week. Many contributors point to other people as the reason for working - or not working - on open source. By learning how to tap into that power constructively, you'll help someone out there have an unforgettable open source experience.
+Здоровые и процветающие сообщества каждую неделю тратят тысячи часов на разработку программного обеспечения с открытым исходным кодом. Многие участники указывают на других людей как на причину работы - или не работы - над открытым исходным кодом. Узнав, как использовать эту силу конструктивно, вы поможете кому-то получить незабываемый опыт с открытым исходным кодом.
