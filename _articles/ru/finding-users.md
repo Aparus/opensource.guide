@@ -1,7 +1,7 @@
 ---
 lang: ru
-title: Finding Users for Your Project
-description: Help your open source project grow by getting it in the hands of happy users.
+title: Поиск пользователей для вашего проекта
+description: Помогите своему проекту с открытым исходным кодом расти, передав его в руки счастливых пользователей.
 class: finding
 toc:
   Распространение-информации: 'Распространение информации'
@@ -113,7 +113,7 @@ related:
 Когда вы пишете доклад, сосредоточьтесь на том, что ваша аудитория найдет интересным и от чего получит пользу. Держите свой язык дружелюбным и доступным. Улыбайтесь, дышите и получайте удовольствие.
 
 <aside markdown = "1" class = "pquote">
-  <img src = "/ assets / images / find-users / lena.jpg" class = "pquote-avatar" alt = "avatar">
+  <img src = "/assets/images/finding-users/lena.jpg" class = "pquote-avatar" alt = "avatar">
   Когда вы начинаете писать свое выступление, независимо от того, какая у вас тема, может помочь, если вы будете рассматривать его как историю, которую вы рассказываете людям.
   <p markdown = "1" class = "pquote-credit">
 - Лена Рейнхард, [«Как подготовить и написать доклад на технической конференции»](http://wunder.schoenaberselten.com/2016/02/16/how-to-prepare-and-write-a-tech-conference-talk/)
