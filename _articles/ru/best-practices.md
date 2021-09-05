@@ -1,15 +1,15 @@
 ---
 lang: ru
-title: Best Practices for Maintainers
-description: Making your life easier as an open source maintainer, from documenting processes to leveraging your community.
+title: Хорошие практики для сопровождающих
+description: Облегчите вашу жизнь в качестве сопровождающего открытого исходного кода, от документирования процессов до использования вашего сообщества.
 class: best-practices
 toc:
-  what-does-it-mean-to-be-a-maintainer: 'What does it mean to be a maintainer?'
-  documenting-your-processes: 'Documenting your processes'
-  learning-to-say-no: 'Learning to say no'
-  leverage-your-community: 'Leverage your community'
-  bring-in-the-robots: 'Bring in the robots'
-  its-okay-to-hit-pause: 'It’s okay to hit pause'
+  Что-значит-быть-сопровождающим: 'Что значит быть сопровождающим?'
+  Документирование-ваших-процессов: 'Документирование ваших процессов'
+  Учимся-говорить-нет: 'Учимся говорить "нет"'
+  Используйте-свое-сообщество: 'Используйте свое сообщество'
+  Принесите-роботов: 'Принесите роботов'
+  Нажать-паузу-это-нормально: 'Нажать паузу - это нормально'
 order: 5
 image: /assets/images/cards/best-practices.png
 related:
@@ -17,271 +17,271 @@ related:
   - leadership
 ---
 
-## What does it mean to be a maintainer?
+## Что значит быть сопровождающим?
 
-If you maintain an open source project that a lot of people use, you may have noticed you're coding less and responding to issues more.
+Если вы поддерживаете проект с открытым исходным кодом, которым пользуется множество людей, возможно, вы заметили, что меньше кодируете и больше отвечаете на проблемы.
 
-In the early stages of a project, you're experimenting with new ideas and making decisions based on what you want. As your project increases in popularity, you'll find yourself working with your users and contributors more.
+На ранних стадиях проекта вы экспериментируете с новыми идеями и принимаете решения, основанные на ваших желаниях. По мере роста популярности вашего проекта вы обнаружите, что больше работаете со своими пользователями и участниками.
 
-Maintaining a project requires more than code. These tasks are often unexpected, but they're just as important to a growing project. We've gathered a few ways to make your life easier, from documenting processes to leveraging your community.
+Для поддержки проекта требуется нечто большее, чем просто код. Эти задачи часто бывают неожиданными, но они не менее важны для растущего проекта. Мы собрали несколько способов облегчить вашу жизнь - от документирования процессов до привлечения вашего сообщества.
 
-## Documenting your processes
+## Документирование ваших процессов
 
-Writing things down is one of the most important things you can do as a maintainer.
+Записывать вещи - одна из самых важных вещей, которую вы можете делать как сопровождающий.
 
-Documentation not only clarifies your own thinking, but it helps other people understand what you need or expect, before they even ask.
+Документация не только проясняет ваше собственное мышление, но и помогает другим людям понять, что вам нужно или чего вы ждете, еще до того, как они спросят.
 
-Writing things down makes it easier to say no when something doesn't fit into your scope. It also makes it easier for people to pitch in and help. You never know who might be reading or using your project.
+Записывая вещи, легче сказать «нет», когда что-то не вписывается в ваши рамки. Это также облегчает людям участие и помощь. Вы никогда не знаете, кто может читать или использовать ваш проект.
 
-Even if you don't use full paragraphs, jotting down bullet points is better than not writing at all.
+Даже если вы не используете полные абзацы, лучше писать тезисы, чем не писать вообще.
 
-Remember to keep your documentation up-to-date. If you're not able to always do this, delete your outdated documentation or indicate it is outdated so contributors know updates are welcome.
+Не забывайте обновлять документацию. Если вы не можете делать это всегда, удалите устаревшую документацию или укажите, что она устарела, чтобы участники знали, что обновления приветствуются.
 
-### Write down your project's vision
+### Запишите видение вашего проекта
 
-Start by writing down the goals of your project. Add them to your README, or create a separate file called VISION. If there are other artifacts that could help, like a project roadmap, make those public as well.
+Начните с записи целей вашего проекта. Добавьте их в свой README или создайте отдельный файл с именем VISION. Если есть другие артефакты, которые могут помочь, например дорожная карта проекта, также сделайте их общедоступными.
 
-Having a clear, documented vision keeps you focused and helps you avoid "scope creep" from others' contributions.
+Наличие четкого, задокументированного видения позволяет вам сосредоточиться и избежать «расползания по масштабам» от вкладов других людей.
 
-For example, @lord discovered that having a project vision helped him figure out which requests to spend time on. As a new maintainer, he regretted not sticking to his project's scope when he got his first feature request for [Slate](https://github.com/lord/slate).
+Например, @lord обнаружил, что видение проекта помогло ему понять, на какие запросы следует потратить время. Как новый сопровождающий, он сожалел, что не придерживался масштабов своего проекта, когда получил свой первый запрос функции для [Slate](https://github.com/lord/slate).
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/lord?s=180" class="pquote-avatar" alt="avatar">
-  I fumbled it. I didn't put in the effort to come up with a complete solution. Instead of an half-assed solution, I wish I had said "I don't have time for this right now, but I'll add it to the long term nice-to-have list."
-  <p markdown="1" class="pquote-credit">
-— @lord, ["Tips for new open source maintainers"](https://lord.io/blog/2014/oss-tips/)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/lord?s=180" class = "pquote-avatar" alt = "avatar">
+  Я нащупал это. Я не прилагал усилий, чтобы найти полное решение. Вместо полупродуманного решения я хотел бы сказать: «У меня сейчас нет на это времени, но я добавлю его в долгосрочный список, который принято иметь».
+  <p markdown = "1" class = "pquote-credit">
+- @lord, [«Советы для новых разработчиков ПО с открытым исходным кодом»](https://lord.io/blog/2014/oss-tips/)
   </p>
 </aside>
 
-### Communicate your expectations
+### Сообщите о своих ожиданиях
 
-Rules can be nerve-wracking to write down. Sometimes you might feel like you're policing other people's behavior or killing all the fun.
+Написание правил может утомлять вас. Иногда вам может казаться, что вы следите за поведением других людей или убиваете все самое интересное.
 
-Written and enforced fairly, however, good rules empower maintainers. They prevent you from getting dragged into doing things you don't want to do.
+Однако хорошие правила написаны и соблюдаются справедливо и расширяют возможности специалистов по сопровождению. Они не дают вам быть втянутыми в дела, которые вы не хотите делать.
 
-Most people who come across your project don't know anything about you or your circumstances. They may assume you get paid to work on it, especially if it's something they regularly use and depend on. Maybe at one point you put a lot of time into your project, but now you're busy with a new job or family member.
+Большинство людей, которые сталкиваются с вашим проектом, ничего не знают ни о вас, ни о ваших обстоятельствах. Они могут предположить, что вам платят за работу над этим, особенно если это то, чем они регулярно пользуются и от чего зависят. Может быть, в какой-то момент вы потратили много времени на свой проект, но теперь вы заняты новой работой или членом семьи.
 
-All of this is perfectly okay! Just make sure other people know about it.
+Все это нормально! Просто убедитесь, что об этом знают другие люди.
 
-If maintaining your project is part-time or purely volunteered, be honest about how much time you have. This is not the same as how much time you think the project requires, or how much time others want you to spend.
+Если поддержка вашего проекта осуществляется неполный рабочий день или осуществляется исключительно на добровольной основе, скажите честно, сколько у вас времени. Это не то же самое, сколько времени, по вашему мнению, требуется для проекта, или сколько времени другие хотят, чтобы вы потратили на него.
 
-Here are a few rules that are worth writing down:
+Вот несколько правил, которые стоит записать:
 
-- How a contribution is reviewed and accepted (_Do they need tests? An issue template?_)
-- The types of contributions you'll accept (_Do you only want help with a certain part of your code?_)
-- When it's appropriate to follow up (_for example, "You can expect a response from a maintainer within 7 days. If you haven't heard anything by then, feel free to ping the thread."_)
-- How much time you spend on the project (_for example, "We only spend about 5 hours per week on this project"_)
+- Как отзыв рассматривается и принимается (_Нужны ли им тесты? Шаблон задачи?_)
+- Типы вклада, которые вы примете (_Вам нужна помощь только с определенной частью вашего кода?_)
+- Когда уместно следить (_например, «Вы можете ожидать ответа от сопровождающего в течение 7 дней. Если к тому времени вы ничего не услышали, не стесняйтесь пинговать тему»._)
+- Сколько времени вы тратите на проект (_например, «Мы тратим на этот проект всего около 5 часов в неделю»_)
 
-[Jekyll](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), and [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) are several examples of projects with ground rules for maintainers and contributors.
+[Джекилл](https://github.com/jekyll/jekyll/tree/master/docs), [CocoaPods](https://github.com/CocoaPods/CocoaPods/wiki/Communication-&-Design-Rules), и [Homebrew](https://github.com/Homebrew/brew/blob/bbed7246bc5c5b7acb8c1d427d10b43e090dfd39/docs/Maintainers-Avoiding-Burnout.md) - несколько примеров проектов с основными правилами для сопровождающих и участников.
 
-### Keep communication public
+### Поддерживайте общедоступность
 
-Don't forget to document your interactions, too. Wherever you can, keep communication about your project public. If somebody tries to contact you privately to discuss a feature request or support need, politely direct them to a public communication channel, such as a mailing list or issue tracker.
+Не забывайте также документировать свое общение. Везде, где вы можете, делитесь информацией о своем проекте публично. Если кто-то пытается связаться с вами в частном порядке, чтобы обсудить запрос функции или потребность в поддержке, вежливо направьте его на общедоступный канал связи, такой как список рассылки или средство отслеживания проблем (issues).
 
-If you meet with other maintainers, or make a major decision in private, document these conversations in public, even if it's just posting your notes.
+Если вы встречаетесь с другими сопровождающими или принимаете важное решение в частном порядке, документируйте эти разговоры публично, даже если это просто публикация ваших заметок.
 
-That way, anybody who joins your community will have access to the same information as someone who's been there for years.
+Таким образом, любой, кто присоединится к вашему сообществу, будет иметь доступ к той же информации, что и тот, кто был там много лет.
 
-## Learning to say no
+## Учимся говорить "нет"
 
-You've written things down. Ideally, everybody would read your documentation, but in reality, you'll have to remind others that this knowledge exists.
+Вы все записали. В идеале все бы читали вашу документацию, но на самом деле вам придется напоминать другим, что эти знания существуют.
 
-Having everything written down, however, helps depersonalize situations when you do need to enforce your rules.
+Однако если все записать, это поможет обезличить ситуации, когда вам действительно нужно обеспечить соблюдение своих правил.
 
-Saying no isn't fun, but _"Your contribution doesn't match this project's criteria"_ feels less personal than _"I don't like your contribution"_.
+Сказать «нет» - это не весело, но _«Ваш вклад не соответствует критериям этого проекта»_ кажется менее личным, чем _«Мне не нравится ваш вклад»_.
 
-Saying no applies to many situations you'll come across as a maintainer: feature requests that don't fit the scope, someone derailing a discussion, doing unnecessary work for others.
+Сказать «нет» применимо ко многим ситуациям, с которыми вы столкнетесь как сопровождающий: запросы функций, которые не соответствуют проекту, кто-то срывает обсуждение, выполняет ненужную для других работу.
 
-### Keep the conversation friendly
+### Поддерживайте дружескую беседу
 
-One of the most important places you'll practice saying no is on your issue and pull request queue. As a project maintainer, you'll inevitably receive suggestions that you don't want to accept.
+Одно из самых важных мест, где вы будете практиковаться, говоря «нет», - это проблемы (issues) и очередь запросов на перенос. Как сопровождающий проекта, вы неизбежно получите предложения, которые не захотите принимать.
 
-Maybe the contribution changes your project's scope or doesn't match your vision. Maybe the idea is good, but the implementation is poor.
+Возможно, чей-то вклад изменяет масштаб проекта или не соответствует вашему видению. Может идея хорошая, но реализация оставляет желать лучшего.
 
-Regardless of the reason, it is possible to tactfully handle contributions that don't meet your project's standards.
+Независимо от причины, можно тактично обращаться с материалами, которые не соответствуют стандартам вашего проекта.
 
-If you receive a contribution you don't want to accept, your first reaction might be to ignore it or pretend you didn't see it. Doing so could hurt the other person's feelings and even demotivate other potential contributors in your community.
+Если вы получаете вклад, который не хотите принимать, ваша первая реакция может заключаться в том, чтобы проигнорировать его или притвориться, что вы его не видели. Это может задеть чувства другого человека и даже лишить мотивации других потенциальных участников в вашем сообществе.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/krausefx?s=180" class="pquote-avatar" alt="avatar">
-  The key to handle support for large-scale open source projects is to keep issues moving. Try to avoid having issues stall. If you're an iOS developer you know how frustrating it can be to submit radars. You might hear back 2 years later, and are told to try again with the latest version of iOS.
-  <p markdown="1" class="pquote-credit">
-— @KrauseFx, ["Scaling open source communities"](https://krausefx.com/blog/scaling-open-source-communities)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/krausefx?s=180" class = "pquote-avatar" alt = "avatar">
+  Ключ к поддержке крупномасштабных проектов с открытым исходным кодом - это решение проблем. Старайтесь избегать простаивания проблем (issues). Если вы разработчик iOS, вы знаете, как может быть неприятно отправлять сообщение об ошибке на "радар". Возможно, вы услышите ответ через 2 года и вам предложат повторить попытку с последней версией iOS.
+  <p markdown = "1" class = "pquote-credit">
+- @KrauseFx, [«Масштабирование сообществ с открытым исходным кодом»](https://krausefx.com/blog/scaling-open-source-communities)
   </p>
 </aside>
 
-Don't leave an unwanted contribution open because you feel guilty or want to be nice. Over time, your unanswered issues and PRs will make working on your project feel that much more stressful and intimidating.
+Не оставляйте нежелательный вклад открытым, потому что вы чувствуете себя виноватым или хотите вести себя хорошо. Со временем ваши оставшиеся без ответа вопросы и PR сделают работу над вашим проектом намного более напряженной и пугающей.
 
-It's better to immediately close the contributions you know you don't want to accept. If your project already suffers from a large backlog, @steveklabnik has suggestions for [how to triage issues efficiently](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
+Лучше сразу закрыть те взносы, которые вы не хотите принимать. Если ваш проект уже страдает от большого отставания, у @steveklabnik есть предложения [как эффективно сортировать проблемы](https://words.steveklabnik.com/how-to-be-an-open-source-gardener).
 
-Secondly, ignoring contributions sends a negative signal to your community. Contributing to a project can be intimidating, especially if it's someone's first time. Even if you don't accept their contribution, acknowledge the person behind it and thank them for their interest. It's a big compliment!
+Во-вторых, игнорирование вкладов посылает негативный сигнал вашему сообществу. Участие в проекте может быть пугающим, особенно если это кто-то впервые. Даже если вы не принимаете их вклад, поблагодарите человека, стоящего за ним, за проявленный интерес. Это большой комплимент!
 
-If you don't want to accept a contribution:
+Если вы не хотите принимать вклад:
 
-- **Thank them** for their contribution
-- **Explain why it doesn't fit** into the scope of the project, and offer clear suggestions for improvement, if you're able. Be kind, but firm.
-- **Link to relevant documentation**, if you have it. If you notice repeated requests for things you don't want to accept, add them into your documentation to avoid repeating yourself.
-- **Close the request**
+- **Поблагодарите их** за их вклад
+- **Объясните, почему это не вписывается** в рамки проекта, и, если можете, предложите четкие предложения по улучшению. Будьте добрыми, но твердыми.
+- **Ссылка на соответствующую документацию**, если она у вас есть. Если вы замечаете повторяющиеся запросы о вещах, которые не хотите принимать, добавьте их в свою документацию, чтобы не повторяться.
+- **Закройте заявку**
 
-You shouldn't need more than 1-2 sentences to respond. For example, when a user of [celery](https://github.com/celery/celery/) reported a Windows-related error, @berkerpeksag [responded with](https://github.com/celery/celery/issues/3383):
+Для ответа не должно быть более 1-2 предложений. Например, когда пользователь [celery](https://github.com/celery/celery/) сообщил об ошибке, связанной с Windows, @berkerpeksag [ответил] (https://github.com/celery/celery/ issues / 3383):
 
-![Celery screenshot](/assets/images/best-practices/celery.png)
+![Снимок экрана с сельдереем](/assets/images/best-practices/celery.png)
 
-If the thought of saying no terrifies you, you're not alone. As @jessfraz [put it](https://blog.jessfraz.com/post/the-art-of-closing/):
+Если мысль о том, чтобы сказать «нет», пугает вас, вы не одиноки. Как сказал @jessfraz [выразился](https://blog.jessfraz.com/post/the-art-of-closing/):
 
-> I've talked to maintainers from several different open source projects, Mesos, Kubernetes, Chromium, and they all agree one of the hardest parts of being a maintainer is saying "No" to patches you don't want.
+> Я разговаривал с сопровождающими из нескольких различных проектов с открытым исходным кодом, Mesos, Kubernetes, Chromium, и все они согласны с тем, что одна из самых сложных частей работы сопровождающего - это сказать «нет» патчам, которые вам не нужны.
 
-Don't feel guilty about not wanting to accept someone's contribution. The first rule of open source, [according to](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _"No is temporary, yes is forever."_ While empathizing with another person's enthusiasm is a good thing, rejecting a contribution is not the same as rejecting the person behind it.
+Не чувствуйте себя виноватым из-за того, что не хотите принимать чей-то вклад. Первое правило открытого исходного кода, [согласно](https://twitter.com/solomonstre/status/715277134978113536) @shykes: _«Нет - временно, да - навсегда»._ Сочувствовать энтузиазму другого человека - это хорошо. Отказ от вклада - это не то же самое, что отказ от человека, стоящего за ним.
 
-Ultimately, if a contribution isn't good enough, you're under no obligation to accept it. Be kind and responsive when people contribute to your project, but only accept changes that you truly believe will make your project better. The more often you practice saying no, the easier it becomes. Promise.
+В конечном итоге, если вклад недостаточно хорош, вы не обязаны его принимать. Будьте добры и отзывчивы, когда люди вносят свой вклад в ваш проект, но принимайте только те изменения, которые, по вашему мнению, сделают ваш проект лучше. Чем чаще вы практикуетесь говорить «нет», тем легче это становится. Обещаю.
 
-### Be proactive
+### Быть инициативным
 
-To reduce the volume of unwanted contributions in the first place, explain your project's process for submitting and accepting contributions in your contributing guide.
+Чтобы уменьшить объем нежелательных вкладов, в первую очередь, объясните процесс отправки и принятия вкладов в вашем проекте в своем руководстве по участию.
 
-If you're receiving too many low-quality contributions, require that contributors do a bit of work beforehand, for example:
+Если вы получаете слишком много некачественных материалов, потребуйте от участников заранее поработать, например:
 
-- Fill out a issue or PR template/checklist
-- Open an issue before submitting a PR
+- Заполнить шаблон/контрольный список для проблемы (issue) и запроса на перенос (pull request)
+- Открыть проблему перед отправкой запроса на перенос
 
-If they don't follow your rules, close the issue immediately and point to your documentation.
+Если они не соблюдают ваши правила, немедленно закройте проблему и укажите на свою документацию.
 
-While this approach may feel unkind at first, being proactive is actually good for both parties. It reduces the chance that someone will put in many wasted hours of work into a pull request that you aren't going to accept. And it makes your workload easier to manage.
+Поначалу такой подход может показаться недобрым, но на самом деле проактивность полезна для обеих сторон. Это снижает вероятность того, что кто-то потратит впустую много часов работы на запрос на перенос (pull request), который вы не собираетесь принимать. И это упрощает управление вашей рабочей нагрузкой.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/mikemcquaid?s=180" class="pquote-avatar" alt="avatar">
-  Ideally, explain to them and in a CONTRIBUTING.md file how they can get a better indication in the future on what would or would not be accepted before they begin the work.
-  <p markdown="1" class="pquote-credit">
-— @MikeMcQuaid, ["Kindly Closing Pull Requests"](https://github.com/blog/2124-kindly-closing-pull-requests)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/mikemcquaid?s=180" class = "pquote-avatar" alt = "avatar">
+  В идеале, объясните им в файле CONTRIBUTING.md, как они могут получить в будущем лучшее представление о том, что будет или не будет принято, до того, как они начнут работу.
+  <p markdown = "1" class = "pquote-credit">
+- @MikeMcQuaid, [«Любезно завершающие запросы на включение»](https://github.com/blog/2124-kindly-closing-pull-requests)
   </p>
 </aside>
 
-Sometimes, when you say no, your potential contributor may get upset or criticize your decision. If their behavior becomes hostile, [take steps to defuse the situation](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) or even remove them from your community, if they're not willing to collaborate constructively.
+Иногда, когда вы говорите «нет», ваш потенциальный участник может расстроиться или раскритиковать ваше решение. Если их поведение становится враждебным, [примите меры, чтобы разрядить ситуацию](https://github.com/jonschlinkert/maintainers-guide-to-staying-positive#action-items) или даже удалите их из вашего сообщества, если они не желают конструктивного сотрудничества.
 
-### Embrace mentorship
+### Примите наставничество
 
-Maybe someone in your community regularly submits contributions that don't meet your project's standards. It can be frustrating for both parties to repeatedly go through rejections.
+Возможно, кто-то из вашего сообщества регулярно отправляет материалы, не соответствующие стандартам вашего проекта. Для обеих сторон могут быть неприятны неоднократные отказы.
 
-If you see that someone is enthusiastic about your project, but needs a bit of polish, be patient. Explain clearly in each situation why their contributions don't meet the expectations of the project. Try pointing them to an easier or less ambiguous task, like an issue marked _"good first issue,"_ to get their feet wet. If you have time, consider mentoring them through their first contribution, or find someone else in your community who might be willing to mentor them.
+Если вы видите, что кто-то с энтузиазмом относится к вашему проекту, но требует немного доработки, наберитесь терпения. Четко объясните в каждой ситуации, почему их вклад не соответствует ожиданиям проекта. Попробуйте указать им на более легкую или менее двусмысленную задачу, например, на проблему с пометкой _"первая хорошая проблема"_, чтобы они приспособились. Если у вас есть время, подумайте о том, чтобы наставлять их с помощью их первого вклада, или найдите кого-нибудь еще в вашем сообществе, который может быть готов наставлять их.
 
-## Leverage your community
+## Используйте свое сообщество
 
-You don't have to do everything yourself. Your project's community exists for a reason! Even if you don't yet have an active contributor community, if you have a lot of users, put them to work.
+Необязательно все делать самому. Сообщество вашего проекта существует не зря! Даже если у вас еще нет активного сообщества участников, если у вас много пользователей, заставьте их работать.
 
-### Share the workload
+### Разделите рабочую нагрузку
 
-If you're looking for others to pitch in, start by asking around.
+Если вы ищете других, кто может принять участие, начните с расспросов.
 
-One way to gain new contributors is to explicitly [label issues that are simple enough for beginners to tackle](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). GitHub will then surface these issues in various places on the platform, increasing their visibility.
+Один из способов привлечь новых участников - явно [обозначить проблемы, которые достаточно просты для начинающих](https://help.github.com/en/articles/helping-new-contributors-find-your-project-with-labels). Затем GitHub будет отображать эти проблемы в различных местах платформы, делая их более заметными.
 
-When you see new contributors making repeated contributions, recognize their work by offering more responsibility. Document how others can grow into leadership roles if they wish.
+Когда вы видите, что новые участники неоднократно вносят свой вклад, признайте их работу, предложив больше ответственности. Задокументируйте, как другие могут стать лидерами, если захотят.
 
-Encouraging others to [share ownership of the project](../building-community/#share-ownership-of-your-project) can greatly reduce your own workload, as @lmccart discovered on her project, [p5.js](https://github.com/processing/p5.js).
+Поощрение других [разделить право собственности на проект](../building-community/#share-ownership-of-your-project) может значительно снизить вашу рабочую нагрузку, как обнаружила @lmccart в своем проекте [p5.js](https://github.com/processing/p5.js).
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/lmccart?s=180" class="pquote-avatar" alt="avatar">
-  I’d been saying, "Yeah, anyone can be involved, you don’t have to have a lot of coding expertise [...]." We had people sign up to come [to an event] and that’s when I was really wondering: is this true, what I’ve been saying? There are gonna be 40 people who show up, and it’s not like I can sit with each of them...But people came together, and it just sort of worked. As soon as one person got it, they could teach their neighbor.
-  <p markdown="1" class="pquote-credit">
-—  @lmccart, ["What Does "Open Source" Even Mean? p5.js Edition"](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/lmccart?s=180" class = "pquote-avatar" alt = "avatar">
+  Я говорил: «Да, любой может участвовать, вам не обязательно иметь большой опыт программирования [...]». У нас были люди, которые записывались, чтобы прийти [на мероприятие], и тогда я по-настоящему задумался: правда ли это то, что я говорю? Придет 40 человек, и я не могу сидеть с каждым из них... Но люди собрались вместе, и это вроде как сработало. Как только один человек понимал что-то, он мог научить своего соседа.
+  <p markdown = "1" class = "pquote-credit">
+- @lmccart, [«Что вообще означает« открытый исходный код »? P5.js Edition»](https://medium.com/@kenjagan/what-does-open-source-even-mean-p5-js-edition-98c02d354b39)
   </p>
 </aside>
 
-If you need to step away from your project, either on hiatus or permanently, there's no shame in asking someone else to take over for you.
+Если вам нужно отказаться от проекта, будь то на перерыв или навсегда, нет ничего постыдного в том, чтобы попросить кого-то другого взять на себя ответственность за вас.
 
-If other people are enthusiastic about its direction, give them commit access or formally hand over control to someone else. If someone forked your project and is actively maintaining it elsewhere, consider linking to the fork from your original project. It's great that so many people want your project to live on!
+Если другие люди с энтузиазмом относятся к его направлению, предоставьте им доступ к правкам (to commit) или официально передайте контроль кому-то другому. Если кто-то разветвил (fork) ваш проект и активно поддерживает его в другом месте, подумайте о том, чтобы сделать ссылку на ответвление из вашего исходного проекта. Здорово, что так много людей хотят, чтобы ваш проект продолжал жить!
 
-@progrium [found that](https://web.archive.org/web/20151204215958/https://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) documenting the vision for his project, [Dokku](https://github.com/dokku/dokku), helped those goals live on even after he stepped away from the project:
+@progrium [обнаружил, что](https://web.archive.org/web/20151204215958/https://progrium.com/blog/2015/12/04/leadership-guilt-and-pull-requests/) документирование видения его проекта [Dokku](https://github.com/dokku/dokku) помогло достичь этих целей даже после того, как он ушел из проекта:
 
-> I wrote a wiki page describing what I wanted and why I wanted it. For some reason it came as a surprise to me that the maintainers started moving the project in that direction! Did it happen exactly how I'd do it? Not always. But it still brought the project closer to what I wrote down.
+> Я написал вики-страницу с описанием того, что я хотел и почему я этого хотел. Почему-то для меня стало неожиданностью, что сопровождающие начали продвигать проект в этом направлении! Произошло ли это именно так, как я хотел? Не всегда. Но это все же приблизило проект к тому, что я написал.
 
-### Let others build the solutions they need
+### Позвольте другим создавать нужные им решения
 
-If a potential contributor has a different opinion on what your project should do, you may want to gently encourage them to work on their own fork.
+Если потенциальный участник придерживается другого мнения о том, что должен делать ваш проект, вы можете мягко поощрить его к работе над собственным ответвлением (fork).
 
-Forking a project doesn't have to be a bad thing. Being able to copy and modify projects is one of the best things about open source. Encouraging your community members to work on their own fork can provide the creative outlet they need, without conflicting with your project's vision.
+Разветвление проекта не должно считаться плохим. Возможность копировать и изменять проекты - одна из лучших сторон открытого исходного кода. Поощрение членов вашего сообщества к работе над собственным форком может дать им необходимый творческий выход, не противореча видению вашего проекта.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/geerlingguy?s=180" class="pquote-avatar" alt="avatar">
-  I cater to the 80% use case. If you are one of the unicorns, please fork my work. I won't get offended! My public projects are almost always meant to solve the most common problems; I try to make it easy to go deeper by either forking my work or extending it.
-  <p markdown="1" class="pquote-credit">
-— @geerlingguy, ["Why I Close PRs"](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/geerlingguy?s=180" class = "pquote-avatar" alt = "avatar">
+  Я стремлюсь к покрытию 80% потребностей. Если вы один из единорогов, пожалуйста, ответвите мою работу. Я не обижусь! Мои публичные проекты почти всегда предназначены для решения самых распространенных проблем; я стараюсь сделать так, чтобы было легче идти глубже, либо разветвляя свою работу, либо расширяя ее.
+  <p markdown = "1" class = "pquote-credit">
+- @geerlingguy, [«Почему я закрываю запрос за перенос (pull request)](https://www.jeffgeerling.com/blog/2016/why-i-close-prs-oss-project-maintainer-notes)
   </p>
 </aside>
 
-The same applies to a user who really wants a solution that you simply don't have the bandwidth to build. Offering APIs and customization hooks can help others meet their own needs, without having to modify the source directly. @orta [found that](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) encouraging plugins for CocoaPods led to "some of the most interesting ideas":
+То же самое относится к пользователю, которому действительно нужно решение, для создания которого у вас просто нет пропускной способности. Предлагая API-интерфейсы и хуки настройки, можно помочь другим удовлетворить их собственные потребности без необходимости напрямую изменять исходный код. @orta [обнаружил, что](https://artsy.github.io/blog/2016/07/03/handling-big-projects/) поощрение плагинов для CocoaPods привело к «некоторым из самых интересных идей»:
 
-> It's almost inevitable that once a project becomes big, maintainers have to become a lot more conservative about how they introduce new code. You become good at saying "no", but a lot of people have legitimate needs. So, instead you end up converting your tool into a platform.
+> Почти неизбежно, что когда проект становится большим, сопровождающие должны стать более консервативными в том, как они вводят новый код. Вы научитесь говорить «нет», но у многих людей есть законные потребности. Таким образом, вместо этого вы превращаете свой инструмент в платформу.
 
-## Bring in the robots
+## Принесите роботов
 
-Just as there are tasks that other people can help you with, there are also tasks that no human should ever have to do. Robots are your friend. Use them to make your life as a maintainer easier.
+Подобно тому, как есть задачи, с которыми вам могут помочь другие люди, есть также задачи, которые ни один человек никогда не должен выполнять. Роботы - ваш друг. Используйте их, чтобы облегчить себе жизнь в качестве сопровождающего.
 
-### Require tests and other checks to improve the quality of your code
+### Требовать тесты и другие проверки для улучшения качества вашего кода
 
-One of the most important ways you can automate your project is by adding tests.
+Один из наиболее важных способов автоматизации проекта - это добавление тестов.
 
-Tests help contributors feel confident that they won't break anything. They also make it easier for you to review and accept contributions quickly. The more responsive you are, the more engaged your community can be.
+Тесты помогают участникам быть уверенными в том, что они ничего не сломают. Они также облегчают вам быстрый просмотр и принятие материалов. Чем более отзывчивым вы будете, тем более заинтересованным может быть ваше сообщество.
 
-Set up automatic tests that will run on all incoming contributions, and ensure that your tests can easily be run locally by contributors. Require that all code contributions pass your tests before they can be submitted. You'll help set a minimum standard of quality for all submissions. [Required status checks](https://help.github.com/articles/about-required-status-checks/) on GitHub can help ensure no change gets merged without your tests passing.
+Настройте автоматические тесты, которые будут запускаться для всех входящих вкладов, и убедитесь, что ваши тесты могут легко запускаться локально участниками. Требуйте, чтобы все дополнения кода прошли ваши тесты, прежде чем их можно будет отправить. Вы поможете установить минимальный стандарт качества для всех представленных материалов. [Обязательные проверки статуса](https://help.github.com/articles/about-required-status-checks/) на GitHub могут помочь гарантировать, что никакие изменения не будут объединены без прохождения ваших тестов.
 
-If you add tests, make sure to explain how they work in your CONTRIBUTING file.
+Если вы добавляете тесты, обязательно объясните, как они работают в вашем файле CONTRIBUTING (руководство участника).
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/edunham?s=180" class="pquote-avatar" alt="avatar">
-  I believe that tests are necessary for all code that people work on. If the code was fully and perfectly correct, it wouldn't need changes – we only write code when something is wrong, whether that's "It crashes" or "It lacks such-and-such a feature". And regardless of the changes you're making, tests are essential for catching any regressions you might accidentally introduce.
-  <p markdown="1" class="pquote-credit">
-— @edunham, ["Rust's Community Automation"](https://edunham.net/2016/09/27/rust_s_community_automation.html)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/edunham?s=180" class = "pquote-avatar" alt = "avatar">
+  Я считаю, что тесты необходимы для всего кода, над которым работают люди. Если бы код был полностью и совершенно правильным, он не нуждался бы в изменениях - мы пишем код только тогда, когда что-то не так, будь то «сбой» или «в нем отсутствует такая-то функция». И независимо от того, какие изменения вы вносите, тесты необходимы для выявления любых регрессий, которые вы можете случайно ввести.
+  <p markdown = "1" class = "pquote-credit">
+- @edunham, [«Автоматизация сообщества Rust»](https://edunham.net/2016/09/27/rust_s_community_automation.html)
   </p>
 </aside>
 
-### Use tools to automate basic maintenance tasks
+### Используйте инструменты для автоматизации основных задач сопровождения
 
-The good news about maintaining a popular project is that other maintainers have probably faced similar issues and built a solution for it.
+Хорошая новость о поддержке популярного проекта заключается в том, что другие сопровождающие, вероятно, сталкивались с аналогичными проблемами и создали для них решение.
 
-There are a [variety of tools available](https://github.com/showcases/tools-for-open-source) to help automate some aspects of maintenance work. A few examples:
+Существует [множество доступных инструментов](https://github.com/showcases/tools-for-open-source), которые помогают автоматизировать некоторые аспекты работ по сопровождению. Несколько примеров:
 
-- [semantic-release](https://github.com/semantic-release/semantic-release) automates your releases
-- [mention-bot](https://github.com/facebook/mention-bot) mentions potential reviewers for pull requests
-- [Danger](https://github.com/danger/danger) helps automate code review
-- [no-response](https://github.com/probot/no-response) closes issues where the author hasn't responded to a request for more information
-- [dependabot-preview](https://github.com/marketplace/dependabot-preview) checks your dependency files every day for outdated requirements and opens individual pull requests for any it finds
+- [semantic-release](https://github.com/semantic-release/semantic-release) автоматизирует ваши выпуски (release).
+- [mention-bot](https://github.com/facebook/mention-bot) упоминает потенциальных рецензентов для запросов на перенос (pull request).
+- [Danger](https://github.com/danger/danger) помогает автоматизировать проверку кода.
+- [no-response](https://github.com/probot/no-response) закрывает проблемы, когда автор не ответил на запрос дополнительной информации.
+- [dependabot-preview](https://github.com/marketplace/dependabot-preview) проверяет ваши файлы зависимостей каждый день на наличие устаревших требований и если находит, то открывает для них индивидуальные запросы на перенос.
 
-For bug reports and other common contributions, GitHub has [Issue Templates and Pull Request Templates](https://github.com/blog/2111-issue-and-pull-request-templates), which you can create to streamline the communication you receive. @TalAter made a [Choose Your Own Adventure guide](https://www.talater.com/open-source-templates/#/) to help you write your issue and PR templates.
+Для отчетов об ошибках и других общих материалов на GitHub есть [Шаблоны проблем (issue) и шаблоны запросов на перенос (pull request)](https://github.com/blog/2111-issue-and-pull-request-templates), которые вы можете создать для упрощения взаимодействия с сообществом. @TalAter создал [Руководство по выбору своего собственного приключения](https://www.talater.com/open-source-templates/#/), чтобы помочь вам написать свою проблему и шаблоны запросов на перенос (pull request).
 
-To manage your email notifications, you can set up [email filters](https://github.com/blog/2203-email-updates-about-your-own-activity) to organize by priority.
+Для управления уведомлениями по электронной почте вы можете настроить [фильтры электронной почты](https://github.com/blog/2203-email-updates-about-your-own-activity) для сортировки по приоритету.
 
-If you want to get a little more advanced, style guides and linters can standardize project contributions and make them easier to review and accept.
+Если вы хотите стать немного более продвинутым, руководства по стилю и линтеры могут стандартизировать вклады в проект и упростить их просмотр и принятие.
 
-However, if your standards are too complicated, they can increase the barriers to contribution. Make sure you're only adding enough rules to make everyone's lives easier.
+Однако, если ваши стандарты слишком сложны, они могут увеличить препятствия на пути к участию. Убедитесь, что вы добавляете достаточно правил, чтобы облегчить всем жизнь.
 
-If you're not sure which tools to use, look at what other popular projects do, especially those in your ecosystem. For example, what does the contribution process look like for other Node modules? Using similar tools and approaches will also make your process more familiar to your target contributors.
+Если вы не знаете, какие инструменты использовать, посмотрите, что делают другие популярные проекты, особенно в вашей экосистеме. Например, как выглядит процесс участия для других модулей Node? Использование подобных инструментов и подходов также сделает ваш процесс более знакомым для ваших целевых участников.
 
-## It's okay to hit pause
+## Нажать паузу - это нормально
 
-Open source work once brought you joy. Maybe now it's starting to make you feel avoidant or guilty.
+Когда-то работа с открытым исходным кодом приносила вам радость. Может быть, теперь вы начинаете чувствовать себя избегающим или виноватым.
 
-Perhaps you're feeling overwhelmed or a growing sense of dread when you think about your projects. And meanwhile, the issues and pull requests pile up.
+Возможно, вы чувствуете себя подавленным или чувствуете растущее чувство страха, когда думаете о своих проектах. А между тем проблемы (issues) и запросы на перенос (pull request) накапливаются.
 
-Burnout is a real and pervasive issue in open source work, especially among maintainers. As a maintainer, your happiness is a non-negotiable requirement for the survival of any open source project.
+Выгорание - реальная и распространенная проблема в работе с открытым исходным кодом, особенно среди сопровождающих. Ваше счастье как сопровождающего - непреложное условие для выживания любого проекта с открытым исходным кодом.
 
-Although it should go without saying, take a break! You shouldn't have to wait until you feel burned out to take a vacation. @brettcannon, a Python core developer, decided to take [a month-long vacation](https://snarky.ca/why-i-took-october-off-from-oss-volunteering/) after 14 years of volunteer OSS work.
+Это ясно без слов, если устали - сделайте перерыв! Вам не нужно ждать, пока вы почувствуете выгорание, чтобы взять отпуск. @brettcannon, разработчик ядра Python, решил взять [отпуск на месяц](https://snarky.ca/why-i-took-october-off-from-oss-volunteering/) после 14 лет волонтерской работы в открытом исходном коде.
 
-Just like any other type of work, taking regular breaks will keep you refreshed, happy, and excited about your work.
+Как и любой другой вид работы, регулярные перерывы будут держать вас бодрым, счастливым и воодушевленным своей работой.
 
-<aside markdown="1" class="pquote">
-  <img src="https://avatars.githubusercontent.com/danielbachhuber?s=180" class="pquote-avatar" alt="avatar">
-  In maintaining WP-CLI, I've discovered I need to make myself happy first, and set clear boundaries on my involvement. The best balance I've found is 2-5 hours per week, as a part of my normal work schedule. This keeps my involvement a passion, and from feeling too much like work. Because I prioritize the issues I'm working on, I can make regular progress on what I think is most important.
-  <p markdown="1" class="pquote-credit">
-— @danielbachhuber, ["My condolences, you're now the maintainer of a popular open source project"](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
+<aside markdown = "1" class = "pquote">
+  <img src = "https://avatars.githubusercontent.com/danielbachhuber?s=180" class = "pquote-avatar" alt = "avatar">
+  Поддерживая WP-CLI, я обнаружил, что мне нужно сначала сделать себя счастливым, и установить четкие границы своего участия. Наилучший баланс, который я нашел, - это 2-5 часов в неделю как часть моего обычного рабочего графика. Это сохраняет мое увлечение страстью, и не возникает ощущения работы. Поскольку я уделяю приоритетное внимание вопросам, над которыми работаю, я могу регулярно добиваться прогресса в том, что считаю наиболее важным.
+  <p markdown = "1" class = "pquote-credit">
+- @danielbachhuber, [«Мои соболезнования, теперь вы поддерживаете популярный проект с открытым исходным кодом»](https://runcommand.io/2016/06/26/my-condolences-youre-now-the-maintainer-of-a-popular-open-source-project/)
   </p>
 </aside>
 
-Sometimes, it can be hard to take a break from open source work when it feels like everybody needs you. People may even try to make you feel guilty for stepping away.
+Иногда бывает трудно сделать перерыв в работе с открытым исходным кодом, когда кажется, что вы нужны всем. Люди могут даже попытаться заставить вас почувствовать себя виноватым за то, что вы отступили.
 
-Do your best to find support for your users and community while you're away from a project. If you can't find the support you need, take a break anyway. Be sure to communicate when you're not available, so people aren't confused by your lack of responsiveness.
+Сделайте все возможное, чтобы найти поддержку для своих пользователей и сообщества, пока вы не участвуете в проекте. Если вы не можете найти необходимую поддержку, все равно сделайте перерыв. Обязательно предупреждайте, перед тем как стать недоступным, чтобы людей не смущало отсутствие вашей реакции.
 
-Taking breaks applies to more than just vacations, too. If you don't want to do open source work on weekends, or during work hours, communicate those expectations to others, so they know not to bother you.
+Перерывы относятся не только к отпуску. Если вы не хотите заниматься разработкой с открытым исходным кодом по выходным или в рабочее время, сообщите об этих ожиданиях другим, чтобы они знали, что вас не надо беспокоить.
 
-## Take care of yourself first!
+## Береги себя в первую очередь!
 
-Maintaining a popular project requires different skills than the earlier stages of growth, but it's no less rewarding. As a maintainer, you'll practice leadership and personal skills on a level that few people get to experience. While it's not always easy to manage, setting clear boundaries and only taking on what you're comfortable with will help you stay happy, refreshed, and productive.
+Поддержание популярного проекта требует иных навыков, чем на ранних этапах развития, но это не уменьшает пользу описанных выше советов. Как сопровождающий, вы будете практиковать лидерство и личные навыки на уровне, который мало кто сможет испытать. Хотя этим не всегда легко управлять, установление четких границ и принятие только того, что вам удобно, помогут вам оставаться счастливыми, бодрыми и продуктивными.
