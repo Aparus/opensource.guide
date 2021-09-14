@@ -29,9 +29,9 @@ related:
 
 Есть много причин, по которым человек не хотел бы получать деньги за свою работу с открытым исходным кодом.
 
-- **Возможно, у них уже есть любимая работа на полный рабочий день,** которая позволяет им вносить свой вклад в разработку открытого исходного кода в свободное время.
-- **Им нравится думать об открытом исходном коде как об увлечении** или творческом пути, и они не хотят чувствовать себя финансово обязанными работая над своими проектами.
-- **Они получают другие преимущества от участия в разработке открытого исходного кода**, такие как создание своей репутации или портфолио, обучение новым навыкам или чувство близости к сообществу.
+* **Возможно, у них уже есть любимая работа на полный рабочий день,** которая позволяет им вносить свой вклад в разработку открытого исходного кода в свободное время.
+* **Им нравится думать об открытом исходном коде как об увлечении** или творческом пути, и они не хотят чувствовать себя финансово обязанными работая над своими проектами.
+* **Они получают другие преимущества от участия в разработке открытого исходного кода**, такие как создание своей репутации или портфолио, обучение новым навыкам или чувство близости к сообществу.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars.githubusercontent.com/alloy?s=180" class="pquote-avatar" alt="avatar">
@@ -99,20 +99,20 @@ related:
 
 Если не получается убедить работодателя в важности работы над открытым кодом, можете подумать о поиске нового работодателя, который будет поощрять вклад сотрудников в разработку открытого кода. Ищите компании, которые открыто заявляют о своей приверженности работе с открытым кодом. Например:
 
-- Некоторые компании как [Netflix](https://netflix.github.io/) или [PayPal](https://paypal.github.io/), имеют веб-сайты, которые подчеркивают их участие в открытых проектах
-- [Zalando](https://opensource.zalando.com) опубликовали свою [политику участия в открытых проектах](https://opensource.zalando.com/docs/using/contributing/) для работников.
+* Некоторые компании как [Netflix](https://netflix.github.io/) или [PayPal](https://paypal.github.io/), имеют веб-сайты, которые подчеркивают их участие в открытых проектах
+* [Zalando](https://opensource.zalando.com) опубликовали свою [политику участия в открытых проектах](https://opensource.zalando.com/docs/using/contributing/) для работников.
 
 Проекты, инициированные крупной компанией вроде [Go](https://github.com/golang) или [React](https://github.com/facebook/react), также, вероятно, будут нанимать людей для работы с открытым кодом.
 
 В зависимости от ваших личных обстоятельств вы можете попытаться собрать деньги самостоятельно для финансирования своей работы с открытым исходным кодом. Например:
 
-- @gaearon нашёл финансирование для [Redux](https://github.com/reactjs/redux) через [кампанию краудфайндинга на Patreon](https://redux.js.org/)
-- @andrewgodwin нашёл финансирование миграции схемы Django [через кампанию на Kickstarter](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django).
+* @gaearon нашёл финансирование для [Redux](https://github.com/reactjs/redux) через [кампанию краудфайндинга на Patreon](https://redux.js.org/)
+* @andrewgodwin нашёл финансирование миграции схемы Django [через кампанию на Kickstarter](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django).
 
 Иногда открытые проекты размещают вознаграждение за задачи, над которыми вы могли бы поработать.
 
-- @ConnorChristie получал оплату, [помогая](https://web.archive.org/web/20181030123412/https://webcache.googleusercontent.com/search?strip=1&q=cache:https%3A%2F%2Fgithub.com%2FMARKETProtocol%2FMARKET.js%2Fissues%2F14) @MARKETProtocol над иж JavaScript библиотекой через [gitcoin.co](https://gitcoin.co/).
-- @mamiM сделал перевод на японский @MetaMask за вознаграждение на [Bounties Network](https://explorer.bounties.network/bounty/134).
+* @ConnorChristie получал оплату, [помогая](https://web.archive.org/web/20181030123412/https://webcache.googleusercontent.com/search?strip=1&q=cache:https%3A%2F%2Fgithub.com%2FMARKETProtocol%2FMARKET.js%2Fissues%2F14) @MARKETProtocol над иж JavaScript библиотекой через [gitcoin.co](https://gitcoin.co/).
+* @mamiM сделал перевод на японский @MetaMask за вознаграждение на [Bounties Network](https://explorer.bounties.network/bounty/134).
 
 ## Поиск финансирования для вашего проекта
 
@@ -127,17 +127,17 @@ related:
 Поиск спонсоров хорошо работает, если к вам есть сильный интерес, или у вас есть репутация, или ваш проект очень популярен.
 Вот несколько примеров спонсируемых проектов:
 
-- **[webpack](https://github.com/webpack)** привлекает деньги от компаний и частных лиц [through OpenCollective](https://opencollective.com/webpack)
-- **[Vue](https://github.com/vuejs/vue)** [спонсируется через Patreon](https://github.com/open-source/stories/yyx990803)
-- **[вместе с Ruby](https://rubytogether.org/),** - некоммерческая организация, которая платит за работу над [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), и над другими проектами инфраструктуры Ruby
+* **[webpack](https://github.com/webpack)** привлекает деньги от компаний и частных лиц [through OpenCollective](https://opencollective.com/webpack)
+* **[Vue](https://github.com/vuejs/vue)** [спонсируется через Patreon](https://github.com/open-source/stories/yyx990803)
+* **[вместе с Ruby](https://rubytogether.org/),** - некоммерческая организация, которая платит за работу над [bundler](https://github.com/bundler/bundler), [RubyGems](https://github.com/rubygems/rubygems), и над другими проектами инфраструктуры Ruby
 
 ### Создайте поток доходов
 
 В зависимости от вашего проекта вы можете взимать плату за коммерческую поддержку, варианты размещения или дополнительные функции. Вот несколько примеров:
 
-- **[Sidekiq](https://github.com/mperham/sidekiq)** предлагает платные версии за дополнительную плату
-- **[Travis CI](https://github.com/travis-ci)** предлагает платные версии своего продукта
-- **[Ghost](https://github.com/TryGhost/Ghost)** - это некоммерческая организация с платными услугами
+* **[Sidekiq](https://github.com/mperham/sidekiq)** предлагает платные версии за дополнительную плату
+* **[Travis CI](https://github.com/travis-ci)** предлагает платные версии своего продукта
+* **[Ghost](https://github.com/TryGhost/Ghost)** - это некоммерческая организация с платными услугами
 
 Некоторые популярные проекты как [npm](https://github.com/npm/npm) и [Docker](https://github.com/docker/docker), даже привлекают венчурные инвестиции для поддержания роста своих проектов.
 
@@ -145,10 +145,10 @@ related:
 
 Some software foundations and companies offer grants for open source work. Sometimes, grants can be paid out to individuals without setting up a legal entity for the project.
 
-- **[Read the Docs](https://github.com/rtfd/readthedocs.org)** получил [грант поддержки открытого кода Mozilla](https://www.mozilla.org/en-US/grants/)
-- **[OpenMRS](https://github.com/openmrs)** был профинансирован [приютом открытого кода от Stripe](https://stripe.com/blog/open-source-retreat-2016-grantees)
-- **[Libraries.io](https://github.com/librariesio)** получил грант от [Sloan Foundation](https://sloan.org/programs/digital-technology)
-- **[Python Software Foundation](https://www.python.org/psf/grants/)** предлагает гранты на работу, связанную с питоном
+* **[Read the Docs](https://github.com/rtfd/readthedocs.org)** получил [грант поддержки открытого кода Mozilla](https://www.mozilla.org/en-US/grants/)
+* **[OpenMRS](https://github.com/openmrs)** был профинансирован [приютом открытого кода от Stripe](https://stripe.com/blog/open-source-retreat-2016-grantees)
+* **[Libraries.io](https://github.com/librariesio)** получил грант от [Sloan Foundation](https://sloan.org/programs/digital-technology)
+* **[Python Software Foundation](https://www.python.org/psf/grants/)** предлагает гранты на работу, связанную с питоном
 
 Более подробные варианты и тематические исследования вы можете прочитать в [руководстве](https://github.com/nayafia/lemonade-stand) по получению оплаты за работу с открытым кодом от @nayafia. Для разных типов финансирования требуются разные навыки, поэтому определите свои сильные стороны, чтобы выяснить, какой вариант лучше всего подходит для вас.
 
